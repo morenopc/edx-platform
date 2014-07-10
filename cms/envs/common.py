@@ -39,6 +39,9 @@ from dealer.git import git
 ############################ FEATURE CONFIGURATION #############################
 
 FEATURES = {
+
+	'DISABLE_COURSE_CREATION':True,
+
     'USE_DJANGO_PIPELINE': True,
 
     'GITHUB_PUSH': False,
@@ -286,8 +289,8 @@ STATICFILES_DIRS = [
 ]
 
 # Locale/Internationalization
-TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+TIME_ZONE = 'America/Sao_Paulo'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+LANGUAGE_CODE = 'pt-br'  # http://www.i18nguy.com/unicode/language-identifiers.html
 
 LANGUAGES = lms.envs.common.LANGUAGES
 USE_I18N = True
