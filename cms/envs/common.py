@@ -268,9 +268,9 @@ EMAIL_PORT = 25
 EMAIL_USE_TLS = False
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
-DEFAULT_FROM_EMAIL = 'registration@example.com'
-DEFAULT_FEEDBACK_EMAIL = 'feedback@example.com'
-SERVER_EMAIL = 'devops@example.com'
+DEFAULT_FROM_EMAIL = 'staff@ucl.br'
+DEFAULT_FEEDBACK_EMAIL = 'staff@ucl.br'
+SERVER_EMAIL = 'staff@ucl.br'
 ADMINS = ()
 MANAGERS = ADMINS
 
