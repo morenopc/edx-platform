@@ -6,6 +6,7 @@
 requirements/private.txt
 lms/envs/private.py
 cms/envs/private.py
+lms/envs/dev_pt_br.py
 
 ### Python artifacts
 *.pyc
@@ -69,12 +70,14 @@ bin/
 *.scssc
 lms/static/css/
 lms/static/sass/*.css
+lms/static/sass/*.css.map
 lms/static/sass/application.scss
 lms/static/sass/application-extend1.scss
 lms/static/sass/application-extend2.scss
 lms/static/sass/course.scss
 cms/static/css/
 cms/static/sass/*.css
+cms/static/sass/*.css.map
 
 ### Logging artifacts
 log/
