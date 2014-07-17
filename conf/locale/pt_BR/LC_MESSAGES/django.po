@@ -19,6 +19,7 @@
 # RenataBarboza, 2013
 # RenataBarboza, 2013-2014
 # rpietrobon <pietr007@gmail.com>, 2013-2014
+# Roger Gomes <roger@ucl.br>, 2014
 # sarina <sarina@edx.org>, 2014
 # Thiago Vieira <thipvieira@gmail.com>, 2014
 # thimabi13 <thimabi13@gmail.com>, 2014
@@ -127,7 +128,7 @@ msgstr ""
 #. needs to grade
 #: cms/djangoapps/contentstore/utils.py common/lib/xmodule/xmodule/tabs.py
 msgid "Open Ended Panel"
-msgstr ""
+msgstr "Painel Final"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Honor Code Certificate"
@@ -179,58 +180,58 @@ msgstr "Conta desativada"
 
 #: common/djangoapps/student/models.py
 msgid "Male"
-msgstr ""
+msgstr "Masculino"
 
 #: common/djangoapps/student/models.py
 msgid "Female"
-msgstr ""
+msgstr "Feminino"
 
 #. Translators: 'Other' refers to the student's gender
 #. Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models.py common/djangoapps/student/models.py
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 #: common/djangoapps/student/models.py
 msgid "Doctorate"
-msgstr ""
+msgstr "Doutorado"
 
 #: common/djangoapps/student/models.py
 msgid "Master's or professional degree"
-msgstr ""
+msgstr "Mestrado ou especialização"
 
 #: common/djangoapps/student/models.py
 msgid "Bachelor's degree"
-msgstr ""
+msgstr "Bacharelado"
 
 #: common/djangoapps/student/models.py
 msgid "Associate's degree"
-msgstr ""
+msgstr "Técnico"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
-msgstr ""
+msgstr "Ensino médio"
 
 #: common/djangoapps/student/models.py
 msgid "Junior secondary/junior high/middle school"
-msgstr ""
+msgstr "Ensino fundamental"
 
 #: common/djangoapps/student/models.py
 msgid "Elementary/primary school"
-msgstr ""
+msgstr "Escola primária"
 
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models.py
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: common/djangoapps/student/views.py
 msgid "Course id not specified"
-msgstr "ID do curso não especificada"
+msgstr "ID do curso não especificado"
 
 #: common/djangoapps/student/views.py
 msgid "Course id is invalid"
-msgstr "ID do curso inválida"
+msgstr "ID do curso inválido"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -291,8 +292,8 @@ msgid ""
 "This account has not been activated. We have sent another activation "
 "message. Please check your e-mail for the activation instructions."
 msgstr ""
-"Esta conta não foi ativada. Enviamos uma outra mensagem de ativação. Por "
-"favor, verifique seu e-mail para as instruções sobre a ativação. "
+"Esta conta não foi ativada. Enviamos uma outra mensagem de ativação. "
+"Por favor, verifique seu e-mail e siga as instruções para ativar sua conta. "
 
 #: common/djangoapps/student/views.py
 msgid "Please enter a username"
@@ -1094,7 +1095,7 @@ msgstr "Verificação final"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Checking..."
-msgstr ""
+msgstr "Verificando..."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
@@ -1279,52 +1280,52 @@ msgstr "Conteúdo programático"
 #. their course
 #: common/lib/xmodule/xmodule/tabs.py
 msgid "Instructor"
-msgstr ""
+msgstr "Instrutor"
 
 #. Translators: "Self" is used to denote an openended response that is self-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Self"
-msgstr ""
+msgstr "Autocorreção"
 
 #. Translators: "AI" is used to denote an openended response that is machine-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "AI"
-msgstr ""
+msgstr "IA"
 
 #. Translators: "Peer" is used to denote an openended response that is peer-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Peer"
-msgstr ""
+msgstr "Por colegas"
 
 #. Translators: "Not started" is used to communicate to a student that their
 #. response
 #. has not yet been graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Not started."
-msgstr ""
+msgstr "Não iniciada."
 
 #. Translators: "Being scored." is used to communicate to a student that their
 #. response
 #. are in the process of being scored
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Being scored."
-msgstr ""
+msgstr "Sendo corrigida."
 
 #. Translators: "Scoring finished" is used to communicate to a student that
 #. their response
 #. have been scored, but the full scoring process is not yet complete
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Scoring finished."
-msgstr ""
+msgstr "Correção concluída."
 
 #. Translators: "Complete" is used to communicate to a student that their
 #. openended response has been fully scored
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Complete."
-msgstr ""
+msgstr "Finalizada."
 
 #. Translators: "Scored rubric" appears to a user as part of a longer
 #. string that looks something like: "Scored rubric from grader 1".
@@ -1333,42 +1334,42 @@ msgstr ""
 #. returned from one of the graders of their openended response problem.
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Scored rubric"
-msgstr ""
+msgstr "Comentário resumido"
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid ""
 "You have attempted this question {number_of_student_attempts} times. You are"
 " only allowed to attempt it {max_number_of_attempts} times."
-msgstr ""
+msgstr "Você tentou responder esta questão {number_of_student_attempts} vezes. São permitidas no máximo {max_number_of_attempts} tentativas."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "The problem state got out-of-sync. Please try reloading the page."
-msgstr ""
+msgstr "O status do problema não está sincronizado. Por favor, tente recarregar a página."
 
 #. Translators: "Self-Assessment" refers to the self-assessed mode of
 #. openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Self-Assessment"
-msgstr ""
+msgstr "Autoavaliação"
 
 #. Translators: "Peer-Assessment" refers to the peer-assessed mode of
 #. openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Peer-Assessment"
-msgstr ""
+msgstr "Avaliação por colegas"
 
 #. Translators: "Instructor-Assessment" refers to the instructor-assessed mode
 #. of openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Instructor-Assessment"
-msgstr ""
+msgstr "Avaliação pelo instrutor"
 
 #. Translators: "AI-Assessment" refers to the machine-graded mode of openended
 #. evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "AI-Assessment"
-msgstr ""
+msgstr "Avaliação por IA"
 
 #. Translators: 'tag' is one of 'feedback', 'submission_id',
 #. 'grader_id', or 'score'. They are categories that a student
@@ -1378,27 +1379,27 @@ msgstr ""
 msgid ""
 "Could not find needed tag {tag_name} in the survey responses. Please try "
 "submitting again."
-msgstr ""
+msgstr "Não foi possível encontrar a marcação necessária {tag_name} nas respostas da enquete. Por favor, tente enviar novamente."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "There was an error saving your feedback. Please contact course staff."
-msgstr ""
+msgstr "Houve um erro ao salvar o seu comentário. Por favor, entre em contato com a equipe do curso."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Couldn't submit feedback."
-msgstr ""
+msgstr "Não foi possível enviar comentário."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Successfully saved your feedback."
-msgstr ""
+msgstr "O seu comentário foi salvo corretamente."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Unable to save your feedback. Please try again later."
-msgstr ""
+msgstr "Não foi possível salvar o seu comentário. Por favor, tente novamente mais tarde."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Successfully saved your submission."
-msgstr ""
+msgstr "A tarefa foi salva corretamente."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -1407,7 +1408,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid ""
 "Unable to submit your submission to the grader. Please try again later."
-msgstr ""
+msgstr "Não foi possível enviar a sua tarefa o para o corretor. Por favor, tente novamente mais tarde."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -1416,7 +1417,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Error getting feedback from grader."
-msgstr ""
+msgstr "Erro ao obter o parecer do corretor."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -1428,77 +1429,77 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Error handling action. Please try again."
-msgstr ""
+msgstr "Não nenhum parecer do corretor disponível."
 
 #. Translators: this string appears once an openended response
 #. is submitted but before it has been graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid ""
 "Your response has been submitted. Please check back later for your grade."
-msgstr ""
+msgstr "A sua reposta foi enviada. Por favor, verifique depois a sua nota."
 
 #. Translators: "Not started" communicates to a student that their response
 #. has not yet been graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "Not started"
-msgstr ""
+msgstr "Não iniciada"
 
 #. Translators: "In progress" communicates to a student that their response
 #. is currently in the grading process
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "In progress"
-msgstr ""
+msgstr "Em andamento"
 
 #. Translators: "Done" communicates to a student that their response
 #. has been fully graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "Done"
-msgstr ""
+msgstr "Concluída"
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid ""
 "We could not find a file in your submission. Please try choosing a file or "
 "pasting a URL to your file into the answer box."
-msgstr ""
+msgstr "Não foi possível localizar um arquivo na sua tarefa. Por favor, tente escolher um arquivo ou colar um URL para o seu arquivo no campo da resposta."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid ""
 "We are having trouble saving your file. Please try another file or paste a "
 "URL to your file into the answer box."
-msgstr ""
+msgstr "Estamos tendo problemas para salvar o seu arquivo. Por favor, tente outro arquivo ou cole um URL para o seu arquivo no campo de resposta."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/self_assessment_module.py
 msgid "Error saving your score.  Please notify course staff."
-msgstr ""
+msgstr "Erro ao salvar a sua pontuação. Por favor, notifique a equipe do curso."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid ""
 "Can't receive transcripts from Youtube for {youtube_id}. Status code: "
 "{status_code}."
-msgstr ""
+msgstr "Não é possível receber as transcrições do Youtube para {youtube_id}. Código do status: {status_code}."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "Can't find any transcripts on the Youtube service."
-msgstr ""
+msgstr "Não foram encontradas transcrições no serviço YouTube."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "We support only SubRip (*.srt) transcripts format."
-msgstr ""
+msgstr "Somente são suportadas transcrições no formato SubRip (*.srt)."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid ""
 "Something wrong with SubRip transcripts file during parsing. Inner message "
 "is {error_message}"
-msgstr ""
+msgstr "Ocorreu um erro com o arquivo SubRip de transcrição durante a análise. A mensagem interna foi {error_message}"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "Something wrong with SubRip transcripts file during parsing."
-msgstr ""
+msgstr "Ocorreu um erro com o arquivo SubRip de transcrição durante a análise."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
-msgstr ""
+msgstr "{exception_message}: Não foi possível encontrar as transcrições enviadas: {user_filename}"
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid ""
@@ -1510,11 +1511,11 @@ msgstr ""
 #. player.
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "SubRip (.srt) file"
-msgstr ""
+msgstr "Arquivo SubRip (.srt)"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Text (.txt) file"
-msgstr ""
+msgstr "Arquivo de texto (.txt)"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 msgid "Navigation"
@@ -1543,7 +1544,7 @@ msgstr ""
 #: lms/templates/static_templates/copyright.html
 #: lms/templates/static_templates/copyright.html
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Direitos autorais"
 
 #: lms/templates/help_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -1560,35 +1561,35 @@ msgstr "Nome"
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Username"
-msgstr "Nome do usuário"
+msgstr "Nome de usuário"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Grade"
-msgstr ""
+msgstr "Nota"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Percent"
-msgstr ""
+msgstr "Por cento"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Section"
-msgstr ""
+msgstr "Seção"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "Subsection"
-msgstr ""
+msgstr "Subseção"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "Opened by this number of students"
-msgstr ""
+msgstr "Aberto por este número de alunos"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "subsections"
-msgstr ""
+msgstr "subseções"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/courseware/instructor_dashboard.html
@@ -1598,11 +1599,11 @@ msgstr "Problema"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "Count of Students"
-msgstr ""
+msgstr "Contagem de alunos"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "% of Students"
-msgstr ""
+msgstr "% de alunos"
 
 #: lms/templates/folditchallenge.html
 msgid "Score"
@@ -1610,38 +1611,38 @@ msgstr "Pontuação"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "problems"
-msgstr ""
+msgstr "problemas"
 
 #. Translators: this string includes wiki markup.  Leave the ** and the _
 #. alone.
 #: lms/djangoapps/course_wiki/views.py
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr ""
+msgstr "Esta é a wiki para _{course_name}_ do **{organization}**."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
-msgstr ""
+msgstr "Página do curso criada automaticamente."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Welcome to the edX Wiki"
-msgstr ""
+msgstr "Bem-vindo à Wiki ESO"
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Visit a course wiki to add an article."
-msgstr ""
+msgstr "Visite uma wiki do curso para adicionar um artigo."
 
 #: lms/djangoapps/courseware/views.py
 msgid "User {username} does not exist."
-msgstr ""
+msgstr "O usuário {username} não existe."
 
 #: lms/djangoapps/courseware/views.py
 msgid "User {username} has never accessed problem {location}"
-msgstr ""
+msgstr "O usuário {username} nunca acessou o problema {location}"
 
 #: lms/djangoapps/courseware/features/video.py lms/templates/video.html
 #, fuzzy
 msgid "ERROR: No playable video sources found!"
-msgstr ""
+msgstr "ERRO: não foram localizados os arquivos de vídeo!"
 "#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
 "ERRO: Não foram encontrados os arquivos de vídeo!\n"
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
@@ -1684,14 +1685,14 @@ msgstr "A loja do módulo subjacente não dá suporte à importação."
 #. available from the remote source they specified
 #: lms/djangoapps/dashboard/git_import.py
 msgid "The specified remote branch is not available."
-msgstr ""
+msgstr "O ramo remoto especificado não está disponível."
 
 #. Translators: Error message shown when they have asked for a git
 #. repository branch, a specific version within a repository, that
 #. doesn't exist, or there is a problem changing to it.
 #: lms/djangoapps/dashboard/git_import.py
 msgid "Unable to switch to specified branch. Please check your branch name."
-msgstr ""
+msgstr "Não foi possível alternar para o ramo especificado. Por favor, verifique o nome do ramo."
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed in authenticating {0}, error {1}\n"
@@ -1922,7 +1923,7 @@ msgstr "nome completo"
 msgid ""
 "Import the specified git repository and optional branch into the modulestore"
 " and optionally specified directory."
-msgstr ""
+msgstr "Importar o repositório git especificado e o ramo opcional na loja do módulo e no diretório específico opcional."
 
 #: lms/djangoapps/dashboard/tests/test_sysadmin.py
 msgid "Cannot find user with email address"
@@ -1956,14 +1957,14 @@ msgstr "Fechar segmento"
 #: lms/djangoapps/django_comment_client/base/views.py
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Title can't be empty"
-msgstr ""
+msgstr "O título não pode ficar vazio"
 
 #: lms/djangoapps/django_comment_client/base/views.py
 #: lms/djangoapps/django_comment_client/base/views.py
 #: lms/djangoapps/django_comment_client/base/views.py
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Body can't be empty"
-msgstr ""
+msgstr "O corpo não pode ficar vazio"
 
 #: lms/djangoapps/django_comment_client/base/views.py
 #: lms/djangoapps/django_comment_client/base/views.py
@@ -2013,15 +2014,15 @@ msgstr "E-mail"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Location"
-msgstr ""
+msgstr "Localização"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Birth Year"
-msgstr ""
+msgstr "Ano de nascimento"
 
 #: lms/templates/register.html lms/templates/signup_modal.html
 msgid "Gender"
@@ -2037,16 +2038,16 @@ msgstr "Endereço para correspondência"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Goals"
-msgstr ""
+msgstr "Objetivos"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Module does not exist."
-msgstr ""
+msgstr "O módulo não existe."
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "An error occurred while deleting the score."
-msgstr ""
+msgstr "Ocorreu um erro ao excluir a pontuação."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Complete"
@@ -2054,7 +2055,7 @@ msgstr "Completado"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Incomplete"
-msgstr "Não completado"
+msgstr "Incompleto"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -2111,212 +2112,213 @@ msgstr "Estatísticas"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Course Statistics At A Glance"
-msgstr ""
+msgstr "Estatísticas rápidas do curso"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Found a single student.  "
-msgstr ""
+msgstr "Um único aluno encontrado."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Couldn't find student with that email or username."
-msgstr ""
+msgstr "Não foi possível localizar um aluno com este email ou nome de usuário."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "List of students enrolled in {course_id}"
-msgstr ""
+msgstr "Lista de alunos inscritos em {course_id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Summary Grades of students enrolled in {course_id}"
-msgstr ""
+msgstr "Resumo das notas dos alunos inscritos em {course_id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Raw Grades of students enrolled in {course_id}"
-msgstr ""
+msgstr "Notas preliminares dos alunos inscritas em {course_id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to create a background task for rescoring \"{problem_url}\"."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para reavaliar \"{problem_url}\"."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to create a background task for rescoring \"{problem_url}\": problem "
 "not found."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para reavaliar \"{problem_url}\": problema não encontrado."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to create a background task for rescoring \"{url}\": {message}."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para reavaliação de \"{url}\": {message}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to create a background task for resetting \"{problem_url}\"."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para redefinir \"{problem_url}\"."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to create a background task for resetting \"{problem_url}\": problem "
 "not found."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para redefinir \"{problem_url}\": problema não encontrado."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to create a background task for resetting \"{url}\": {message}."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para redefinir \"{url}\": {message}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Found module.  "
-msgstr ""
+msgstr "Módulo encontrado. "
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Couldn't find module with that urlname: {url}. "
-msgstr ""
+msgstr "Não foi possível encontrar o módulo com este url: {url}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Deleted student module state for {state}!"
-msgstr ""
+msgstr "Status do aluno para o módulo excluído para {state}!"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to delete module state for {id}/{url}. "
-msgstr ""
+msgstr "Falha ao excluir o status do módulo para {id}/{url}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Module state successfully reset!"
-msgstr ""
+msgstr "Status do módulo redefinido corretamente!"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Couldn't reset module state for {id}/{url}. "
-msgstr ""
+msgstr "Não foi possível redefinir o status do módulo para {id}/{url}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to create a background task for rescoring \"{key}\" for student {id}."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para reavaliar \"{key}\" para o aluno {id}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to create a background task for rescoring \"{key}\": {id}."
-msgstr ""
+msgstr "Falha ao criar uma tarefa em segundo plano para reavaliar \"{key}\": {id}."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Progress page for username: {username} with email address: {email}"
-msgstr ""
+msgstr "Página do progresso para o usuário {username} com o endereço de email: {email}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Assignment Name"
-msgstr ""
+msgstr "Nome da tarefa"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Please enter an assignment name"
-msgstr ""
+msgstr "Por favor, digite o nome da tarefa"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Invalid assignment name '{name}'"
-msgstr ""
+msgstr "Nome da tarefa inválido '{name}'"
 
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "External email"
-msgstr ""
+msgstr "E-mail externo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Grades for assignment \"{name}\""
-msgstr ""
+msgstr "Notas para tarefa \"{name}\""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "List of Staff"
-msgstr ""
+msgstr "Lista da equipe"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "List of Instructors"
-msgstr ""
+msgstr "Lista de instrutores"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Student profile data for course {course_id}"
-msgstr ""
+msgstr "Dados do perfil do aluno para o curso {course_id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Found {num} records to dump."
-msgstr ""
+msgstr "Foram encontrados {num} registros a serem excluídos."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Couldn't find module with that urlname."
-msgstr ""
+msgstr "Não foi possível encontrar o módulo com este nome de url."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Student state for problem {problem}"
-msgstr ""
+msgstr "Status do estudante para o problema {problem}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "List of Beta Testers"
-msgstr ""
+msgstr "Lista de testadores beta"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Your email was successfully queued for sending. Please note that for large "
 "classes, it may take up to an hour (or more, if other courses are "
 "simultaneously sending email) to send all emails."
-msgstr ""
+msgstr "O seu e-mail foi incluído na fila de envio. Note que com turmas grandes é possível que este processo demore até uma hora (ou mais, se outros cursos estiverem enviando e-mails simultaneamente) para enviar todos os e-mails."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Your email was successfully queued for sending."
-msgstr ""
+msgstr "O seu e-mail foi incluído corretamente na fila de envio."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Grades from {course_id}"
-msgstr ""
+msgstr "Notas do curso {course_id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "No remote gradebook defined in course metadata"
-msgstr ""
+msgstr "Não há um boletim remoto definido nos metadados do curso"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "No remote gradebook url defined in settings.FEATURES"
-msgstr ""
+msgstr "Falha na comunicação com o servidor de boletins em {url}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "No gradebook name defined in course remote_gradebook metadata"
-msgstr ""
+msgstr "Não há um nome de boletim definido nos metadados de remote_gradebook do curso"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Failed to communicate with gradebook server at {url}"
-msgstr ""
+msgstr "Falha na comunicação com o servidor de boletins em {url}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Error: {err}"
-msgstr ""
+msgstr "Erro: {err}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Remote gradebook response for {action}"
-msgstr ""
+msgstr "Resposta remota do boletim para {action}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Full name"
-msgstr ""
+msgstr "Nome completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Roles"
-msgstr ""
+msgstr "Funções"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "List of Forum {name}s in course {id}"
-msgstr ""
+msgstr "Lista de {name}s do Fórum no curso {id}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Error: unknown rolename \"{rolename}\""
-msgstr ""
+msgstr "Erro: função desconhecida \"{rolename}\""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Error: unknown username \"{username}\""
-msgstr ""
+msgstr "Erro: nome de usuário desconhecido \"{username}\""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Error: user \"{username}\" does not have rolename \"{rolename}\", cannot "
 "remove"
-msgstr ""
+msgstr "Erro: o usuário \"{username}\" não tem uma função \"{rolename}\", não foi possível excluir"
+
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Removed \"{username}\" from \"{course_id}\" forum role = \"{rolename}\""
-msgstr ""
+msgstr "O usuário \"{username}\" foi removido da função do fórum \"{course_id}\" = \"{rolename}\""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Error: user \"{username}\" already has rolename \"{rolename}\", cannot add"
@@ -2330,15 +2332,15 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Added \"{username}\" to \"{course_id}\" forum role = \"{rolename}\""
-msgstr ""
+msgstr "O usuário \"{username}\" foi adicionado para função do fórum \"{course_id}\" = \"{rolename}\""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_id}"
-msgstr ""
+msgstr "{title} no curso {course_key}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/tools.py cms/templates/register.html
@@ -2349,7 +2351,7 @@ msgstr ""
 #: lms/templates/verify_student/face_upload.html
 #, fuzzy
 msgid "Full Name"
-msgstr ""
+msgstr "Nome Completo"
 "#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
 "Nome Completo\n"
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
@@ -2357,27 +2359,27 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "edX email"
-msgstr ""
+msgstr "E-mail do ESO"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Enrollment of students"
-msgstr ""
+msgstr "Inscrição de alunos"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Un-enrollment of students"
-msgstr ""
+msgstr "Cancelamento de inscrição de alunos"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to find any background tasks for course \"{course}\", module "
 "\"{problem}\" and student \"{student}\"."
-msgstr ""
+msgstr "Falha ao tentar localizar tarefas em segundo plano para o curso \"{course}\", módulo \"{problem}\" e aluno \"{student}\"."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to find any background tasks for course \"{course}\" and module "
 "\"{problem}\"."
-msgstr ""
+msgstr "Falha ao tentar localizar tarefas em segundo plano para o curso \"{course}\" e o módulo \"{problem}\"."
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Unable to parse date: "
@@ -3729,11 +3731,11 @@ msgstr "Criar uma nova versão unificada"
 
 #: lms/templates/wiki/preview_inline.html
 msgid "Previewing revision:"
-msgstr ""
+msgstr "Pré-visualizando revisão:"
 
 #: lms/templates/wiki/preview_inline.html
 msgid "Previewing a merge between two revisions:"
-msgstr ""
+msgstr "Pré-visualização da combinação de duas revisões:"
 
 #: lms/templates/wiki/preview_inline.html
 msgid "This revision has been deleted."
@@ -3803,7 +3805,7 @@ msgstr "Adições ao edX:"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Math Expression"
-msgstr ""
+msgstr "Expressão matemática"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Useful examples:"
@@ -3811,11 +3813,11 @@ msgstr "Exemplos úteis:"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "edX Wiki"
-msgstr ""
+msgstr "Wiki ESO"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Huge Header"
@@ -3961,7 +3963,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/course_info_model.py
 msgid "Course update not found."
-msgstr ""
+msgstr "Atualização de curso não encontrada"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
@@ -5192,7 +5194,7 @@ msgstr "Registre-se na {platform_name} hoje mesmo!"
 
 #: lms/templates/login-sidebar.html
 msgid "Looking for help in logging in or with your {platform_name} account?"
-msgstr "Precisa de ajuda com o login ou com sua conta de {platform_name}?"
+msgstr "Precisa de ajuda com o login ou com sua conta {platform_name}?"
 
 #: lms/templates/login-sidebar.html
 msgid "View our help section for answers to commonly asked questions."
@@ -5201,11 +5203,11 @@ msgstr ""
 
 #: lms/templates/login.html
 msgid "Log into your {platform_name} Account"
-msgstr "Entrar na sua conta de {platform_name}"
+msgstr "Entrar na sua conta {platform_name}"
 
 #: lms/templates/login.html
 msgid "Log into My {platform_name} Account"
-msgstr "Entrar na minha conta de {platform_name}"
+msgstr "Entrar na minha conta {platform_name}"
 
 #: lms/templates/login.html
 msgid "Access My Courses"
@@ -5226,11 +5228,11 @@ msgstr "para ter acesso à sua conta e cursos"
 #: lms/templates/login.html
 msgid "We're Sorry, {platform_name} accounts are unavailable currently"
 msgstr ""
-"Lamentamos, as contas de {platform_name} não estão disponíveis atualmente"
+"Lamentamos, as contas {platform_name} não estão disponíveis atualmente"
 
 #: lms/templates/login.html
 msgid "The following errors occurred while logging you in:"
-msgstr ""
+msgstr "Ocorreram os seguintes erros ao logar na sua conta:"
 
 #: lms/templates/login.html
 msgid "Your email or password is incorrect"
@@ -5249,7 +5251,7 @@ msgstr ""
 #: lms/templates/login.html lms/templates/register-shib.html
 #: lms/templates/register.html lms/templates/register.html
 msgid "example: username@domain.com"
-msgstr "Por exemplo: nomedousuario@dominio.com.br"
+msgstr "exemplo: nomedousuario@dominio.com.br"
 
 #: lms/templates/login.html
 msgid "Account Preferences"
@@ -5467,11 +5469,11 @@ msgstr "Redefinir"
 
 #: lms/templates/problem.html
 msgid "Show Answer"
-msgstr ""
+msgstr "Mostrar Resposta"
 
 #: lms/templates/problem.html
 msgid "Reveal Answer"
-msgstr ""
+msgstr "Revelar Resposta"
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} submissions"
@@ -5488,6 +5490,9 @@ msgid ""
 " collection and use of this information will be governed by their terms of "
 "service and privacy policy."
 msgstr ""
+"Seu nome de usuário, e-mail e nome completo será enviado para {destination}, onde as"
+" coletas e uso das informações será regido pelos termos de "
+"serviço e política de privacidade."
 
 #: lms/templates/provider_login.html
 msgid "Return To %s"
@@ -5540,8 +5545,7 @@ msgstr "Por exemplo: MariaSilva"
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/register.html
 msgid "Will be shown in any discussions or forums you participate in"
-msgstr ""
-"será mostrado em todas as discussões ou fóruns nos quais você participar"
+msgstr "Será mostrado em todas as discussões ou fóruns nos quais você participar"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 msgid "Account Acknowledgements"
@@ -5637,11 +5641,11 @@ msgstr ""
 
 #: lms/templates/register.html
 msgid "Register for {platform_name}"
-msgstr "Inscrever-se para {platform_name}"
+msgstr "Inscrever-se na {platform_name}"
 
 #: lms/templates/register.html
 msgid "Create My {platform_name} Account"
-msgstr "Criar a Conta da Minha {platform_name}"
+msgstr "Criar Minha Conta {platform_name}"
 
 #: lms/templates/register.html
 msgid "Welcome!"
@@ -5653,23 +5657,25 @@ msgstr "Faça sua inscrição abaixo para criar sua conta na {platform_name} "
 
 #: lms/templates/register.html
 msgid "Register to start learning today!"
-msgstr ""
+msgstr "Registre-se para começar a aprender hoje!"
 
 #: lms/templates/register.html
 msgid ""
 "or create your own {platform_name} account by completing all "
 "<strong>required*</strong> fields below."
 msgstr ""
+"ou crie sua própria conta {platform_name}, completando todos "
+"campos <strong>requeridos*</strong> abaixo."
 
 #. Translators: selected_provider is the name of an external, third-party user
 #. authentication service (like Google or LinkedIn).
 #: lms/templates/register.html
 msgid "You've successfully signed in with {selected_provider}."
-msgstr ""
+msgstr "Você já assinou com sucesso com {selected_provider}."
 
 #: lms/templates/register.html
 msgid "Finish your account registration below to start learning."
-msgstr ""
+msgstr "Termine o registo da sua conta abaixo para começar a aprender."
 
 #: lms/templates/register.html
 msgid "Please complete the following fields to register for an account. "
@@ -5727,8 +5733,7 @@ msgstr "Ano de nascimento"
 
 #: lms/templates/register.html
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr ""
-"Compartilhe conosco suas razões para inscrever-se para {platform_name}"
+msgstr "Compartilhe conosco suas razões para inscrever-se no {platform_name}"
 
 #: lms/templates/register.html lms/templates/university_profile/edge.html
 msgid "Register"
@@ -5747,6 +5752,8 @@ msgid ""
 "You have re-enabled forum notification emails from {platform_name}. Click "
 "{dashboard_link_start}here{link_end} to return to your dashboard. "
 msgstr ""
+"Você reativou a noticiação de e-mails do fórum da {platform_name}. Clique " 
+"{dashboard_link_start}aqui{link_end} para voltar ao seu painel de controle."
 
 #: lms/templates/seq_module.html lms/templates/seq_module.html
 #: lms/templates/discussion/mustache/_pagination.mustache
@@ -5764,7 +5771,7 @@ msgstr "Próximo"
 
 #: lms/templates/signup_modal.html
 msgid "Sign Up for {platform_name}"
-msgstr ""
+msgstr "Inscreva-se no {platform_name}"
 
 #: lms/templates/signup_modal.html lms/templates/signup_modal.html
 msgid "e.g. yourname@domain.com"
@@ -5800,7 +5807,7 @@ msgstr "Endereço para correspondência"
 
 #: lms/templates/signup_modal.html
 msgid "Goals in signing up for {platform_name}"
-msgstr "Seus objetivos ao registrar-se para {platform_name}"
+msgstr "Seus objetivos ao registrar-se no {platform_name}"
 
 #: lms/templates/signup_modal.html
 msgid "Already have an account?"
@@ -5826,7 +5833,7 @@ msgstr "Histórico de apresentações"
 
 #: lms/templates/staff_problem_info.html
 msgid "{platform_name} Content Quality Assessment"
-msgstr "Avaliação da qualidade do conteúdo de {platform_name} "
+msgstr "Avaliação da qualidade do conteúdo {platform_name} "
 
 #: lms/templates/staff_problem_info.html
 msgid "Comment"
@@ -5842,7 +5849,7 @@ msgstr "Marcador"
 
 #: lms/templates/staff_problem_info.html
 msgid "Optional tag (eg \"done\" or \"broken\"):"
-msgstr ""
+msgstr "Tag opcional (por exemplo \"feito\" ou  \"quebrado\"):"
 
 #: lms/templates/staff_problem_info.html
 msgid "tag"
@@ -5858,7 +5865,7 @@ msgstr "Debug pela equipe"
 
 #: lms/templates/staff_problem_info.html
 msgid "Actions"
-msgstr ""
+msgstr "Ações"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -5867,7 +5874,7 @@ msgstr "Zerar Tentativas do Aluno"
 
 #: lms/templates/staff_problem_info.html
 msgid "Delete Student State"
-msgstr ""
+msgstr "Excluir Estado do Estudante"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -5982,7 +5989,7 @@ msgstr "Administrar cursos"
 #. courseware; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard.html
 msgid "Repo Location"
-msgstr ""
+msgstr "Localização do repositório"
 
 #. Translators: Repo is short for git repository (http://git-scm.com/about) or
 #. source of
@@ -6171,11 +6178,11 @@ msgstr "Baixar Vídeo"
 
 #: lms/templates/video.html lms/templates/video.html
 msgid "Download transcript"
-msgstr ""
+msgstr "Baixar transcrição"
 
 #: lms/templates/video.html
 msgid "Download Handout"
-msgstr ""
+msgstr "Baixar Apostila"
 
 #: lms/templates/word_cloud.html
 msgid "Your words:"
@@ -6408,7 +6415,7 @@ msgstr "Sobre {course.display_number_with_default}"
 
 #: lms/templates/courseware/course_about.html
 msgid "You are registered for this course"
-msgstr ""
+msgstr "Você está registrado para este curso"
 
 #: lms/templates/courseware/course_about.html
 msgid "View Courseware"
@@ -6431,7 +6438,7 @@ msgstr "Inscreva-se para {course.display_number_with_default}"
 
 #: lms/templates/courseware/course_about.html
 msgid "View About Page in studio"
-msgstr ""
+msgstr "Ver Sobre página no studio"
 
 #: lms/templates/courseware/course_about.html
 msgid "Overview"
@@ -6445,15 +6452,15 @@ msgstr "Compartilhe com seus amigos e família!"
 #. Twitter account. {url} should appear at the end of the text.
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {account}: {url}"
-msgstr ""
+msgstr "Eu apenas me registrei para {number} {title} a {account}: {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Take a course with {platform} online"
-msgstr ""
+msgstr "Faça um curso on-line com {platform}"
 
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {platform} {url}"
-msgstr ""
+msgstr "Eu apenas me registrei para {number} {title} a {platform} {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"
@@ -6484,7 +6491,7 @@ msgstr ""
 #: lms/templates/courseware/course_navigation.html
 #: lms/templates/courseware/course_navigation.html
 msgid "Staff view"
-msgstr ""
+msgstr "Visão do Staff"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Student view"
@@ -6652,16 +6659,16 @@ msgstr "Apostilas do Curso"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Legacy Instructor Dashboard"
-msgstr ""
+msgstr "Legado Painel do Instrutor"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "View Course in Studio"
-msgstr ""
+msgstr "Ver Curso no Studio"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Back To Instructor Dashboard"
-msgstr ""
+msgstr "Voltar ao Painel de Controle do Instrutor"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
@@ -6677,7 +6684,7 @@ msgstr ""
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Return to the Instructor Dashboard"
-msgstr ""
+msgstr "Retorne ao Painel de Controle do Instrutor"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid ""
@@ -6805,7 +6812,7 @@ msgstr "Inspeção e ajuste das notas específicas dos alunos"
 msgid ""
 "Specify the {platform_name} email address or username of a student here:"
 msgstr ""
-"Especifique o e-mail de {platform_name} ou o nome de usuário de um aluno "
+"Especifique o e-mail {platform_name} ou o nome de usuário de um aluno "
 "aqui:"
 
 #: lms/templates/courseware/instructor_dashboard.html
@@ -6845,7 +6852,7 @@ msgstr ""
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Explanation of Roles:"
-msgstr ""
+msgstr "Explicação das Funções:"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid ""
@@ -7027,7 +7034,7 @@ msgstr "Estudantes"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Score distribution for problems"
-msgstr ""
+msgstr "Distribuição de notas dos problemas"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Max"
@@ -7047,10 +7054,12 @@ msgid ""
 "Loading the latest graphs for you; depending on your class size, this may "
 "take a few minutes."
 msgstr ""
+"Carregando os últimos gráficos para você; dependendo do tamanho da classe, isso pode " 
+"demorar alguns minutos."
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Count of Students that Opened a Subsection"
-msgstr ""
+msgstr "Contagem de alunos que abriram uma Subseção"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -7060,7 +7069,7 @@ msgstr ""
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "There are no problems in this section."
-msgstr ""
+msgstr "Não há problemas nesta seção."
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Students answering correctly"
@@ -7169,7 +7178,7 @@ msgstr "Progresso do curso"
 
 #: lms/templates/courseware/progress.html
 msgid "View Grading in studio"
-msgstr ""
+msgstr "Ver classificação no studio"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for Student '{username}' ({email})"
@@ -7177,7 +7186,7 @@ msgstr "Progresso do Curso do Aluno '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html
 msgid "Download your certificate"
-msgstr ""
+msgstr "Baixe o seu certificado"
 
 #: lms/templates/courseware/progress.html
 msgid "{earned:.3n} of {total:.3n} possible points"
@@ -7877,12 +7886,12 @@ msgstr "Perfil do Usuário"
 #: lms/templates/discussion/mustache/_inline_thread.mustache
 #: lms/templates/discussion/mustache/_inline_thread_cohorted.mustache
 msgid "Expand discussion"
-msgstr ""
+msgstr "Expandir discussão"
 
 #: lms/templates/discussion/mustache/_inline_thread.mustache
 #: lms/templates/discussion/mustache/_inline_thread_cohorted.mustache
 msgid "Collapse discussion"
-msgstr ""
+msgstr "Fechar discussão"
 
 #: lms/templates/discussion/mustache/_inline_thread_show.mustache
 msgid "This thread has been pinned by course staff."
@@ -7906,6 +7915,8 @@ msgid ""
 "Thank you for signing up for {platform_name}! To activate your account, "
 "please copy and paste this address into your web browser's address bar:"
 msgstr ""
+"Obrigado por inscrever-se para {platform_name}! Para ativar sua conta, "
+"copie e cole este endereço na barra de endereços do seu navegador:"
 
 #: lms/templates/emails/activation_email.txt
 #: lms/templates/emails/email_change.txt
@@ -7914,6 +7925,9 @@ msgid ""
 " any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the about section of the {platform_name} Courses web site."
 msgstr ""
+"Se você não solicitou este e-mail, você não precisa fazer nada; você não vai mais receber" 
+" nossos e-mail. Por favor não responda a este e-mail; se você precisar " 
+"de assistência, consulte a seção sobre no site dos Cursos da {platform_name}."
 
 #: lms/templates/emails/activation_email.txt
 #: lms/templates/emails/email_change.txt
@@ -7922,47 +7936,52 @@ msgid ""
 " any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the help section of the {platform_name} web site."
 msgstr ""
+"Se você não solicitou este e-mail, você não precisa fazer nada; você não vai mais receber"
+" nossos e-mail. Por favor não responda a este e-mail; se você precisar " 
+"de assistência, consulte a seção de ajuda no website {platform_name}."
 
 #: lms/templates/emails/activation_email_subject.txt
 msgid "Your account for {platform_name}"
-msgstr ""
+msgstr "Sua conta para {platform_name}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "Dear {full_name}"
-msgstr ""
+msgstr "Caro {full_name}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid ""
 "You have been invited to be a beta tester for {course_name} at {site_name} "
 "by a member of the course staff."
 msgstr ""
+"Você foi convidado para ser um beta tester para {course_name} em {site_name} " 
+"por um membro da equipe do curso."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 msgid "To start accessing course materials, please visit {course_url}"
-msgstr ""
+msgstr "Para começar a acessar o material do curso, visite {course_url}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid "Visit {course_about_url} to join the course and begin the beta test."
-msgstr ""
+msgstr "Visite {course_about_url} para participar do curso e começar o beta teste."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid "Visit {site_name} to enroll in the course and begin the beta test."
-msgstr ""
+msgstr "Visite {site_name} para se inscrever no curso e começar o beta teste."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid "This email was automatically sent from {site_name} to {email_address}"
-msgstr ""
+msgstr "Este e-mail foi enviado automaticamente a partir do {site_name} para {email_address}"
 
 #: lms/templates/emails/add_beta_tester_email_subject.txt
 msgid "You have been invited to a beta test for {course_name}"
-msgstr ""
+msgstr "Você foi convidado para um teste beta do curso {course_name}"
 
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
@@ -7970,6 +7989,10 @@ msgid ""
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us at"
 msgstr ""
+"Isto é para confirmar que você mudou o e-mail associado à " 
+"{platform_name} de {old_email} para {new_email}. Se você não fez esse " 
+"pedido, entre em contato conosco"
+
 
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
@@ -7977,12 +8000,18 @@ msgid ""
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us immediately. Contact information is listed at:"
 msgstr ""
+"Isto é para confirmar que você mudou o e-mail associado à " 
+"{platform_name} de {old_email} para {new_email}. Se você não fez esse " 
+"pedido, entre em contato conosco imediatamente. Informações de contato encontram-se em:"
+
 
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
 "We keep a log of old e-mails, so if this request was unintentional, we can "
 "investigate."
 msgstr ""
+"Nós mantemos um registro de e-mails antigos. Por isso, se este pedido não foi intencional, nós podemos " 
+"investigar."
 
 #: lms/templates/emails/email_change.txt
 msgid ""
@@ -7990,29 +8019,35 @@ msgid ""
 "{platform_name} account from {old_email} to {new_email}. If this is correct,"
 " please confirm your new e-mail address by visiting:"
 msgstr ""
+"Recebemos um pedido para alterar o e-mail associado à sua " 
+"conta {platform_name} de {old_email} para {new_email}. Se isso é correto," 
+" por favor, confirme o seu endereço de e-mail novo, visitando:"
 
 #: lms/templates/emails/email_change_subject.txt
 msgid "Request to change {platform_name} account e-mail"
-msgstr ""
+msgstr "Pedido para mudar o email da conta {platform_name}"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "Dear student,"
-msgstr ""
+msgstr "Caro aluno,"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
 "You have been invited to join {course_name} at {site_name} by a member of "
 "the course staff."
 msgstr ""
+"Você foi convidado para se juntar ao {course_name} em {site_name} por um membro " 
+"da equipe do curso."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "To access the course visit {course_url} and login."
-msgstr ""
+msgstr "Para acessar o curso visite {course_url} e faça o login."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
 "To access the course visit {course_about_url} and register for the course."
 msgstr ""
+"Para acessar o curso visite {course_about_url} e se inscreva para o curso."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
@@ -8020,87 +8055,102 @@ msgid ""
 "the registration form making sure to use {email_address} in the E-mail "
 "field."
 msgstr ""
+"Para finalizar a sua inscrição, acesse {registration_url} e preencha " 
+"o formulário de inscrição certificando-se de usar {email_address} no campo do " 
+"E-mail."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
 "Once you have registered and activated your account, you will see "
 "{course_name} listed on your dashboard."
 msgstr ""
+"Uma vez que você se registrou e ativou sua conta, você vai ver " 
+"{course_name} listado em seu painel."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
 "Once you have registered and activated your account, visit "
 "{course_about_url} to join the course."
 msgstr ""
+"Uma vez que você se registrou e ativou sua conta, visite " 
+"{course_about_url} para de juntar ao curso."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "You can then enroll in {course_name}."
-msgstr ""
+msgstr "Você pode então se inscrever em {course_name}."
 
 #: lms/templates/emails/enroll_email_allowedsubject.txt
 msgid "You have been invited to register for {course_name}"
-msgstr ""
+msgstr "Você foi convidado para se inscrever para {course_name}"
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 msgid ""
 "You have been enrolled in {course_name} at {site_name} by a member of the "
 "course staff. The course should now appear on your {site_name} dashboard."
 msgstr ""
+"Você foi inscrito no {course_name} em {site_name} por um membro do " 
+"da equipe do curso. O curso agora deve aparecer em seu painel {site_name}."
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "This email was automatically sent from {site_name} to {full_name}"
-msgstr ""
+msgstr "Este e-mail foi enviado automaticamente a partir do {site_name} para {full_name}"
 
 #: lms/templates/emails/enroll_email_enrolledsubject.txt
 msgid "You have been enrolled in {course_name}"
-msgstr ""
+msgstr "Você foi inscrito no {course_name}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Hi {name}"
-msgstr ""
+msgstr "Oi {name}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid ""
 "Your payment was successful. You will see the charge below on your next "
 "credit or debit card statement."
 msgstr ""
+"Seu pagamento foi bem sucedido. Você vai ver a taxa abaixo em sua próxima " 
+"fatura do cartão de crédito ou de débito."
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid ""
 "The charge will show up on your statement under the company name "
 "{merchant_name}."
 msgstr ""
+"A acusação vai aparecer na sua declaração sob o nome da empresa "
+"{merchant_name}."
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid ""
 "If you have billing questions, please read the FAQ ({faq_url}) or contact "
 "{billing_email}."
 msgstr ""
+"Se você tem dúvidas de faturamento, por favor leia o FAQ ({faq_url}) ou entre em contato com " 
+"{billing_email}."
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr ""
+msgstr "Se você tem dúvidas de faturamento, entre em contato {billing_email}."
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "-The {platform_name} Team"
-msgstr ""
+msgstr "-O Time {platform_name}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Your order number is: {order_number}"
-msgstr ""
+msgstr "O seu número de ordem é: {order_number}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "The items in your order are:"
-msgstr ""
+msgstr "Os itens em seu pedido são:"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Quantity - Description - Price"
-msgstr ""
+msgstr "Quantidade - Descrição - Preço"
 
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Total billed to credit/debit card: {currency_symbol}{total_cost}"
-msgstr ""
+msgstr "Total faturado no cartão de crédito/débito: {currency_symbol}{total_cost}"
 
 #: lms/templates/emails/order_confirmation_email.txt
 #: lms/templates/shoppingcart/receipt.html
@@ -8113,6 +8163,9 @@ msgid ""
 "name from {old_name} to {new_name}. If you need further assistance, please "
 "e-mail the tech support at"
 msgstr ""
+"Lamentamos. Nossa equipe não aprovou o seu pedido para mudar seu "
+"nome de {old_name} para {new_name}. Se você precisar de mais ajuda, por favor "
+"mande um e-mail de suporte técnico em"
 
 #: lms/templates/emails/reject_name_change.txt
 msgid ""
@@ -8120,6 +8173,9 @@ msgid ""
 "name from {old_name} to {new_name}. If you need further assistance, please "
 "e-mail the course staff at ta@edx.org."
 msgstr ""
+"Lamentamos. Nossa equipe não aprovou o seu pedido para mudar seu "
+"nome de {old_name} para {new_name}. Se você precisar de mais ajuda, por favor "
+"mande um email para equipe do curso pelo staff@ucl.br."
 
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 msgid ""
@@ -8127,25 +8183,30 @@ msgid ""
 " member of the course staff. The course will remain on your dashboard, but "
 "you will no longer be part of the beta testing group."
 msgstr ""
+"Você foi removido do beta tester para {course_name} em {site_name} por um" 
+" membro do curso. O curso irá permanecer em seu painel de controle, mas " 
+"você não vai mais fazer parte do grupo de beta teste."
 
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "Your other courses have not been affected."
-msgstr ""
+msgstr "Seus outros cursos não foram afetados."
 
 #: lms/templates/emails/remove_beta_tester_email_subject.txt
 msgid "You have been removed from a beta test for {course_name}"
-msgstr ""
+msgstr "Você foi removido de um besta teste para {course_name}"
 
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid "Dear Student,"
-msgstr ""
+msgstr "Caro Aluno,"
 
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid ""
 "You have been un-enrolled from course {course_name} by a member of the "
 "course staff. Please disregard the invitation previously sent."
 msgstr ""
+"Sua inscrição para o curso {course_name} foi cancelada por um membro da " 
+"equipe do curso. Favor desconsiderar o convite enviado anteriormente."
 
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid ""
@@ -8153,10 +8214,13 @@ msgid ""
 " course staff. The course will no longer appear on your {site_name} "
 "dashboard."
 msgstr ""
+"Você foi desmatriculado do curso {course_name} em {site_name} por um membro da " 
+"equipe do curso. O curso não aparecerá mais no seu painel " 
+"{site_name}."
 
 #: lms/templates/emails/unenroll_email_subject.txt
 msgid "You have been un-enrolled from {course_name}"
-msgstr ""
+msgstr "Você foi desmatriculado do curso {course_name}"
 
 #: lms/templates/instructor/staff_grading.html
 msgid "{course_number} Staff Grading"
@@ -8497,7 +8561,7 @@ msgstr "Redefinição da data de entrega para o estudante"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "Revert to Legacy Dashboard"
-msgstr ""
+msgstr "Reverter para Painel de Legado"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid ""
@@ -8505,6 +8569,8 @@ msgid ""
 "transition time, you can still access the old Instructor Dashboard by "
 "clicking the 'Revert to Legacy Dashboard' button above."
 msgstr ""
+"Nós mudamos o visual do Painel do Instrutor. Durante este tempo de transição, "
+"você ainda pode acessar o antigo Painel de Instrutor clicando em 'Reverter para Painel de Legado' no botão acima."
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "section_display_name"
@@ -8514,18 +8580,18 @@ msgstr "section_display_name"
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "Enter email addresses and/or usernames separated by new lines or commas."
-msgstr ""
+msgstr "Digite os endereços de e-mail e/ou nomes de usuários separados por novas linhas ou vírgulas."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
-msgstr ""
+msgstr "Você não receberá notificação por e-mails errados, então verifique bem a ortografia."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Email Addresses/Usernames"
-msgstr ""
+msgstr "Endereço de E-mail/Nome de usuários"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -8536,23 +8602,26 @@ msgstr "Matricular-se Automaticamente"
 msgid ""
 "If this option is <em>checked</em>, users who have not yet registered for "
 "{platform_name} will be automatically enrolled."
-msgstr ""
+msgstr "Se esta opção for <em>marcada</em>, os usuários que ainda não se inscreveram para "
+"{platform_name} serão inscritos automaticamente."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "If this option is left <em>unchecked</em>, users who have not yet registered"
-" for {platform_name} will not be enrolled, but will be allowed to enroll "
+" for  will not be enrolled, but will be allowed to enroll "
 "once they make an account."
-msgstr ""
+msgstr "Se esta opção for deixada <em>desmarcada</em>, os usuários que ainda não se inscreveram" 
+" para {platform_name} não serão inscritos automaticamente, mas será permitida a inscrição " 
+"uma vez fizerem uma conta."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Checking this box has no effect if 'Unenroll' is selected."
-msgstr ""
+msgstr "Marcar essa caixa não tem efeito se 'Cancelar a inscrição' for selecionada."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Notify users by email"
-msgstr ""
+msgstr "Notifique os usuários por e-mail"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -8571,31 +8640,35 @@ msgstr "Cancelar Matrícula"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Batch Beta Tester Addition"
-msgstr ""
+msgstr "Adição dos Beta Testers"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "Note: Users must have an activated {platform_name} account before they can "
 "be enrolled as a beta tester."
 msgstr ""
+"Nota: Os usuários devem ter uma conta {platform_name} ativada antes que eles possam "
+"estar inscrito como beta testers."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "If this option is <em>checked</em>, users who have not enrolled in your "
 "course will be automatically enrolled."
 msgstr ""
+"Se esta opção estiver <em>marcada</em>, os usuários que não estão inscritos no seu " 
+"curso, serão inscrito automaticamente."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Checking this box has no effect if 'Remove beta testers' is selected."
-msgstr ""
+msgstr "Marcar essa caixa não tem efeito se 'Remover beta testers' for selecionado."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add beta testers"
-msgstr ""
+msgstr "Adicionar beta testers"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Remove beta testers"
-msgstr ""
+msgstr "Remover beta testers"
 
 #. Translators: an "Administration List" is a list, such as Course Staff, that
 #. users can be added to.
@@ -8608,7 +8681,7 @@ msgstr "Gestão da Lista de Administração"
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Select an Administrator Group:"
-msgstr ""
+msgstr "Selecione um grupo de administradores:"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Getting available lists..."
@@ -8640,7 +8713,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "Adicionar Membro da Equipe "
+msgstr "Adicionar Membro da Equipe"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Instructors"
@@ -8651,6 +8724,8 @@ msgid ""
 "Instructors are the core administration of your course. Instructors can add "
 "and remove course staff, as well as administer discussion access."
 msgstr ""
+"Os instrutores são administradores centrais de seu curso. Instrutores pode adicionar " 
+"e remover equipe do curso, bem como administrar o acesso ao fórum de discussão."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Instructor"
@@ -8671,11 +8746,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Beta Tester"
-msgstr ""
+msgstr "Adiconar Beta Testers"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Admins"
-msgstr ""
+msgstr "Admins do Fórum de discussão"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -8686,11 +8761,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Discussion Admin"
-msgstr ""
+msgstr "Adicionar Admin do Fórum de discussão"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Moderators"
-msgstr ""
+msgstr "Moderadores do Fórum de discussão"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -8706,7 +8781,7 @@ msgstr "Adicionar Moderador"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Community TAs"
-msgstr ""
+msgstr "Fórum de discussão da Comunidade TAs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -8718,11 +8793,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Community TA"
-msgstr ""
+msgstr "Adicionar Comunidade TA"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Use Reload Graphs to refresh the graphs."
-msgstr ""
+msgstr "Use Recarregar gráficos para atualizar os gráficos."
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Reload Graphs"
@@ -8730,22 +8805,24 @@ msgstr "Recarregar gráficos"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Subsection Data"
-msgstr ""
+msgstr "Dados subseção"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Each bar shows the number of students that opened the subsection."
-msgstr ""
+msgstr "Cada barra mostra o número de alunos que abriram a subseção."
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid ""
 "You can click on any of the bars to list the students that opened the "
 "subsection."
 msgstr ""
+"Você pode clicar em qualquer uma das barras para listar os alunos que abriram a " 
+"subseção."
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "You can also download this data as a CSV file."
-msgstr ""
+msgstr "Você também pode baixar esses dados como um arquivo CSV."
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Subsection Data for all Subsections as a CSV"
@@ -8757,7 +8834,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Each bar shows the grade distribution for that problem."
-msgstr ""
+msgstr "Cada barra mostra a distribuição de notas para esse problema."
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid ""
@@ -8789,7 +8866,7 @@ msgstr "Enviar E-mail"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Message:"
-msgstr ""
+msgstr "Mensagem:"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
@@ -8826,17 +8903,19 @@ msgstr "Mostrar Histórico de Tarefas por Email"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student Gradebook"
-msgstr ""
+msgstr "Boletim do Aluno"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "Click here to view the gradebook for enrolled students. This feature is only"
 " visible to courses with a small number of total enrolled students."
 msgstr ""
+"Clique aqui para ver o boletim dos alunos matriculados."
+" Este recurso só é visível para os cursos com um pequeno número do total de alunos matriculados."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Gradebook"
-msgstr ""
+msgstr "Ver Boletim"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student-specific grade inspection"
@@ -12171,7 +12250,7 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Create My Account &amp; Start Authoring Courses"
-msgstr ""
+msgstr "Criar minha conta &amp; Comece Cursos de Autoria"
 
 #: cms/templates/register.html
 msgid "Common Studio Questions"
@@ -12959,7 +13038,7 @@ msgstr "Conteúdos"
 
 #: wiki/forms.py wiki/forms.py
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #: wiki/forms.py
 msgid ""
