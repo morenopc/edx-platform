@@ -104,7 +104,7 @@ EVENT_TRACKING_BACKENDS.update({
 PIPELINE = True
 STATICFILES_FINDERS += ('pipeline.finders.PipelineFinder', )
 
-BULK_EMAIL_DEFAULT_FROM_EMAIL = "test@test.org"
+BULK_EMAIL_DEFAULT_FROM_EMAIL = "staff@ucl.br"
 
 # Forums are disabled in test.py to speed up unit tests, but we do not have
 # per-test control for lettuce acceptance tests.
@@ -151,7 +151,7 @@ CC_PROCESSOR['CyberSource']['PURCHASE_ENDPOINT'] = "/shoppingcart/payment_fake"
 USE_I18N = True
 
 FEATURES['ENABLE_FEEDBACK_SUBMISSION'] = True
-FEEDBACK_SUBMISSION_EMAIL = 'dummy@example.com'
+FEEDBACK_SUBMISSION_EMAIL = 'staff@ucl.br'
 
 # Include the lettuce app for acceptance testing, including the 'harvest' django-admin command
 INSTALLED_APPS += ('lettuce.django',)
