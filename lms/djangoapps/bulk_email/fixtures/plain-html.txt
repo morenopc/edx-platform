@@ -64,8 +64,8 @@
                         <tbody><tr>
                             <td class='mcnImageContent' valign='top' style='padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;'>
                                 
-                                    <a href='http://edx.org' title='' class='' target='_self' style='word-wrap: break-word !important;'>
-                                        <img align='left' alt='edX' src='http://courses.edx.org/static/images/bulk_email/edXHeaderImage.jpg' width='564.0000152587891' style='max-width: 600px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;' class='mcnImage'>
+                                    <a href='http://eso.org.br' title='' class='' target='_self' style='word-wrap: break-word !important;'>
+                                        <img align='left' alt='ESO' src='http://eso.org.br/static/images/bulk_email/edXHeaderImage.jpg' style='max-width: 600px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;' class='mcnImage'>
                                     </a>
                                 
                             </td>
@@ -85,7 +85,7 @@
                         <td valign='top' class='mcnTextContent' style='padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;'>
                         
                             <div style='text-align: right;'>
-	<span style='font-size:11px;'><span style='color:#00a0e3;'>Connect with edX:</span></span> &nbsp;<a href='http://facebook.com/edxonline' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/FacebookIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='http://twitter.com/edxonline' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/TwitterIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://plus.google.com/108235383044095082735' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/GooglePlusIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='http://www.meetup.com/edX-Communities/' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/MeetupIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a></div>
+	<span style='font-size:11px;'><span style='color:#00a0e3;'>Siga o ESO:</span></span> &nbsp;<a href='https://www.facebook.com/ESOedX' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/FacebookIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://twitter.com/ESOedX' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/TwitterIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://plus.google.com/105996628882493711424' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/GooglePlusIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a></div>
 
                         </td>
                     </tr>
@@ -195,7 +195,7 @@
                         <td valign='top' class='mcnTextContent' style='padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #606060;font-family: Helvetica;font-size: 14px;line-height: 150%;text-align: left;'>
                         
                             <div style='text-align: right;'>
-	<a href='http://facebook.com/edxonline' target='_blank' style='color: #2f73bc;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/FacebookIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='http://twitter.com/edxonline' target='_blank' style='color: #2f73bc;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/TwitterIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://plus.google.com/108235383044095082735' target='_blank' style='color: #2f73bc;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/GooglePlusIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp; &nbsp;<a href='http://www.meetup.com/edX-Communities/' target='_blank' style='color: #2f73bc;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://courses.edx.org/static/images/bulk_email/MeetupIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a></div>
+	<span style='font-size:11px;'><span style='color:#00a0e3;'>Siga o ESO:</span></span> &nbsp;<a href='https://www.facebook.com/ESOedX' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/FacebookIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://twitter.com/ESOedX' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/TwitterIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a>&nbsp;&nbsp;<a href='https://plus.google.com/105996628882493711424' target='_blank' style='color: #6DC6DD;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;'><img align='none' height='16' src='http://eso.org.br/static/images/bulk_email/GooglePlusIcon.png' style='width: 16px;height: 16px;border: 0;line-height: 100%;outline: none;text-decoration: none;' width='16'></a></div>
 
                         </td>
                     </tr>
@@ -231,18 +231,18 @@
                         
                         <td valign='top' class='mcnTextContent' style='padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #f2f2f2;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;'>
                         
-                            <em>Copyright © 2013 edX, All rights reserved.</em><br>
+                            <em>Copyright © 2014 ESO, Todos direitos reservados.</em><br>
 <br>
 <br>
-  <b>Our mailing address is:</b><br>
-  edX<br>
-  11 Cambridge Center, Suite 101<br>
-  Cambridge, MA, USA 02142<br>
+  <b>Nosso endereço:</b><br>
+  ESO - Ensino Superior Online<br>
+  Rodovia ES 010, Km 6 - Manguinhos<br>
+  Serra - ES, Brasil | CEP: 29173-087
 <br>
 <br>
-This email was automatically sent from {platform_name}. <br>
-You are receiving this email at address {email} because you are enrolled in <a href='{course_url}'>{course_title}</a>.<br>
-To stop receiving email like this, update your course email settings <a href='{account_settings_url}'>here</a>. <br>
+Este e-mail foi enviado automaticamente a partir do site {platform_name}. <br>
+Você está recebendo este e-mail no endereço {email} porque você está matriculado em <a href='{course_url}'>{course_title}</a>.<br>
+Para cancelar o recebimento de e-mails como este, atualize suas configurações de e-mail do curso <a href='{account_settings_url}'>aqui</a>. <br>
                         </td>
                     </tr>
                 </tbody></table>
