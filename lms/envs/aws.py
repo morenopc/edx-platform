@@ -107,10 +107,10 @@ if os.environ.get('QUEUE') == 'high_mem':
 ########################## EMAIL DJANGO_SES ##############################
 # See https://github.com/hmarr/django-ses
 
-AWS_SES_ACCESS_KEY_ID = 'AKIAIER2FEZV4M233ECA'
-AWS_SES_SECRET_ACCESS_KEY = 'AlVsuDzSoYFEMwwiKBWgzlnMLw7rgFhsVnOEskG43rY+'
-AWS_SES_REGION_NAME = 'us-east-1'
-AWS_SES_REGION_ENDPOINT = 'email.us-east-1.amazonaws.com'
+# AWS_SES_ACCESS_KEY_ID = 'AKIAIER2FEZV4M233ECA'
+# AWS_SES_SECRET_ACCESS_KEY = 'AlVsuDzSoYFEMwwiKBWgzlnMLw7rgFhsVnOEskG43rY+'
+# AWS_SES_REGION_NAME = 'us-east-1'
+# AWS_SES_REGION_ENDPOINT = 'email.us-east-1.amazonaws.com'
 
 
 ########################## NON-SECURE ENV CONFIG ##############################
