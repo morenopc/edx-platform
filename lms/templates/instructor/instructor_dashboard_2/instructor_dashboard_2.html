@@ -66,16 +66,18 @@
       %if studio_url:
       <a class="instructor-info-action" href="${studio_url}">${_("View Course in Studio")}</a>
       %endif
-      %if settings.FEATURES.get('ENABLE_INSTRUCTOR_LEGACY_DASHBOARD'):
-      <a class="instructor-info-action" href="${ old_dashboard_url }"> ${_("Revert to Legacy Dashboard")} </a>
+      %if settings.FEATURES.get('ENABLE_INSTRUCTOR_LEGACY_DASHBOARD', False):
+      <!-- <a class="instructor-info-action" href="${ old_dashboard_url }"> ${_("Revert to Legacy Dashboard")}</a> -->
       %endif
     </div>
 
   <h1>${_("Instructor Dashboard")}</h1>
+    %if settings.FEATURES.get('IS_EDX_DOMAIN', False):
+    ## Only show this banner on the edx.org website (other sites may choose to show this if they wish)
     <div class="wrapper-msg urgency-low msg-warning is-shown">
         <p>${_("We've changed the look and feel of the Instructor Dashboard. During this transition time, you can still access the old Instructor Dashboard by clicking the 'Revert to Legacy Dashboard' button above.")}</p>
     </div>
-
+    %endif
   ## links which are tied to idash-sections below.
   ## the links are activated and handled in instructor_dashboard.coffee
   ## when the javascript loads, it clicks on the first section
@@ -96,3 +98,4 @@
   </section>
 </div>
 </section>
+<script type="text/javascript">$("a:contains('Painel Final'):eq(1)").hide()</script>
