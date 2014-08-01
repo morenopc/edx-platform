@@ -2298,11 +2298,6 @@ msgid "Remote gradebook response for {action}"
 msgstr "Resposta remota do boletim para {action}"
 
 #: lms/djangoapps/instructor/views/legacy.py
-#: lms/djangoapps/instructor/views/legacy.py
-msgid "Full name"
-msgstr "Nome completo"
-
-#: lms/djangoapps/instructor/views/legacy.py
 msgid "Roles"
 msgstr "Funções"
 
@@ -2346,27 +2341,11 @@ msgstr "O usuário \"{username}\" foi adicionado para função do fórum \"{cour
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_id}"
-msgstr "{title} no curso {course_id}"
+msgstr "{title} no curso {course_key}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "ID"
 msgstr "ID"
-
-#: lms/templates/signup_modal.html
-#: lms/djangoapps/instructor/views/legacy.py
-#: lms/djangoapps/instructor/views/tools.py cms/templates/register.html
-#: lms/templates/dashboard.html lms/templates/register-shib.html
-#: lms/templates/register.html lms/templates/register.html
-#: lms/templates/signup_modal.html lms/templates/sysadmin_dashboard.html
-#: lms/templates/verify_student/_modal_editname.html
-#: lms/templates/verify_student/face_upload.html
-#, fuzzy
-msgid "Full Name"
-msgstr "Nome Completo"
-# "#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-# "Nome Completo\n"
-# "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-# "Nome completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "edX email"
@@ -5809,6 +5788,10 @@ msgstr "<i>Bem-Vindo(a)</i> {name}"
 #: lms/templates/signup_modal.html
 msgid "Full Name *"
 msgstr "Nome Completo *"
+
+#: lms/templates/signup_modal.html
+msgid "Full Name"
+msgstr "Nome Completo"
 
 #: lms/templates/signup_modal.html
 msgid "Ed. Completed"
@@ -10807,11 +10790,11 @@ msgstr "Entre em contato com o Suporte do edX"
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
-msgstr ""
+msgstr "Arquivos &amp; Uploads"
 
 #: cms/templates/asset_index.html
 msgid "Uploading…"
-msgstr ""
+msgstr "Carregando…"
 
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 msgid "Choose File"
@@ -10830,18 +10813,18 @@ msgstr ""
 #: cms/templates/edit-tabs.html cms/templates/overview.html
 #: cms/templates/textbooks.html cms/templates/widgets/header.html
 msgid "Content"
-msgstr ""
+msgstr "Conteúdo"
 
 #: cms/templates/asset_index.html cms/templates/container.html
 #: cms/templates/course_info.html cms/templates/edit-tabs.html
 #: cms/templates/index.html cms/templates/manage_users.html
 #: cms/templates/overview.html cms/templates/textbooks.html
 msgid "Page Actions"
-msgstr ""
+msgstr "Ações da Página"
 
 #: cms/templates/asset_index.html
 msgid "Loading&hellip;"
-msgstr ""
+msgstr "Carregando&hellip;"
 
 #: cms/templates/asset_index.html
 msgid "What files are listed here?"
@@ -10888,25 +10871,25 @@ msgstr ""
 
 #: cms/templates/asset_index.html
 msgid "Your file has been deleted."
-msgstr ""
+msgstr "Seu arquivo foi excluido"
 
 #: cms/templates/asset_index.html
 msgid "close alert"
-msgstr ""
+msgstr "fechar alerta"
 
 #: cms/templates/checklists.html cms/templates/export.html
 #: cms/templates/export_git.html cms/templates/import.html
 #: cms/templates/widgets/header.html
 msgid "Tools"
-msgstr ""
+msgstr "Ferramentas"
 
 #: cms/templates/checklists.html
 msgid "Course Checklists"
-msgstr ""
+msgstr "As listas de Verificação do Curso"
 
 #: cms/templates/checklists.html
 msgid "Current Checklists"
-msgstr ""
+msgstr "Listas Atuais"
 
 #: cms/templates/checklists.html
 msgid "What are course checklists?"
@@ -10931,27 +10914,27 @@ msgstr ""
 
 #: cms/templates/component.html
 msgid "Duplicate this component"
-msgstr ""
+msgstr "Duplicar este componente"
 
 #: cms/templates/component.html
 msgid "Delete this component"
-msgstr ""
+msgstr "Excluir este componente"
 
 #: cms/templates/container.html
 msgid "Container"
-msgstr ""
+msgstr "Recipiente"
 
 #: cms/templates/container.html
 msgid "This page has no content yet."
-msgstr ""
+msgstr "Esta página não tem conteúdo ainda."
 
 #: cms/templates/container.html cms/templates/container.html
 msgid "Publishing Status"
-msgstr ""
+msgstr "Estado de Publicação"
 
 #: cms/templates/container.html
 msgid "Published"
-msgstr ""
+msgstr "Publicado"
 
 #: cms/templates/container.html
 msgid ""
@@ -10961,7 +10944,7 @@ msgstr ""
 
 #: cms/templates/container.html
 msgid "Draft"
-msgstr ""
+msgstr "Rascunho"
 
 #: cms/templates/container.html
 msgid ""
@@ -11018,11 +11001,11 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "Show this page"
-msgstr ""
+msgstr "Mostrar esta página"
 
 #: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
 msgid "Show/hide page"
-msgstr ""
+msgstr "Mostrar/Esconder página"
 
 #: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
 msgid "This page cannot be reordered"
@@ -11098,28 +11081,28 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html cms/templates/unit.html
 msgid "Display Name:"
-msgstr ""
+msgstr "Nome de Exibição:"
 
 #: cms/templates/edit_subsection.html
 msgid "Units:"
-msgstr ""
+msgstr "Unidades"
 
 #: cms/templates/edit_subsection.html
 msgid "Subsection Settings"
-msgstr ""
+msgstr "Configurações de Subsecção"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Day"
-msgstr ""
+msgstr "Dia de Lançamento"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Time"
-msgstr ""
+msgstr "Hora do Lançamento"
 
 #: cms/templates/edit_subsection.html cms/templates/edit_subsection.html
 #: cms/templates/overview.html
 msgid "Coordinated Universal Time"
-msgstr ""
+msgstr "Tempo Universal Coordenado"
 
 #: cms/templates/edit_subsection.html
 msgid "UTC"
@@ -11136,7 +11119,7 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html
 msgid "Sync to {name}."
-msgstr ""
+msgstr "Sincronize a {name}."
 
 #: cms/templates/edit_subsection.html
 msgid "Graded as:"
@@ -11144,31 +11127,31 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html
 msgid "Set a due date"
-msgstr ""
+msgstr "Defina uma data de vencimento"
 
 #: cms/templates/edit_subsection.html
 msgid "Due Day"
-msgstr ""
+msgstr "Dia de Vencimento"
 
 #: cms/templates/edit_subsection.html
 msgid "Due Time"
-msgstr ""
+msgstr "Hora do Vencimento"
 
 #: cms/templates/edit_subsection.html
 msgid "Remove due date"
-msgstr ""
+msgstr "Remover data de vencimento"
 
 #: cms/templates/edit_subsection.html
 msgid "Preview Drafts"
-msgstr ""
+msgstr "Visualizar Rascunhos"
 
 #: cms/templates/error.html
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Erro Interno do Servidor" 
 
 #: cms/templates/error.html
 msgid "The Page You Requested Page Cannot be Found"
-msgstr ""
+msgstr "A página solicitada não pode ser encontrada"
 
 #: cms/templates/error.html
 msgid ""
@@ -11185,7 +11168,7 @@ msgstr ""
 
 #: cms/templates/error.html
 msgid "The Server Encountered an Error"
-msgstr ""
+msgstr "O servidor encontrou um Erro"
 
 #: cms/templates/error.html
 msgid ""
@@ -11198,15 +11181,15 @@ msgstr ""
 
 #: cms/templates/error.html
 msgid "Back to dashboard"
-msgstr ""
+msgstr "Voltar para o painel de controle"
 
 #: cms/templates/export.html cms/templates/export.html
 msgid "Course Export"
-msgstr ""
+msgstr "Exportar Curso"
 
 #: cms/templates/export.html
 msgid "About Exporting Courses"
-msgstr ""
+msgstr "Sobre a Exportação de Cursos"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
@@ -11219,11 +11202,11 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Export My Course Content"
-msgstr ""
+msgstr "Exportar Conteúdo do meu Curso"
 
 #: cms/templates/export.html
 msgid "Export Course Content"
-msgstr ""
+msgstr "Exportar Conteúdo do Curso"
 
 #: cms/templates/export.html
 msgid "Data {em_start}exported with{em_end} your course:"
@@ -11231,15 +11214,15 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Course Content (all Sections, Sub-sections, and Units)"
-msgstr ""
+msgstr "Conteúdo do Curso (todas as Seções, Sub-seções e Unidades)"
 
 #: cms/templates/export.html
 msgid "Course Structure"
-msgstr ""
+msgstr "Estrutura do Curso"
 
 #: cms/templates/export.html
 msgid "Individual Problems"
-msgstr ""
+msgstr "Problemas individuais"
 
 #: cms/templates/export.html
 msgid "Course Assets"
@@ -11247,7 +11230,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Course Settings"
-msgstr ""
+msgstr "Configurações do Curso"
 
 #: cms/templates/export.html
 msgid "Data {em_start}not exported{em_end} with your course:"
@@ -11255,7 +11238,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "User Data"
-msgstr ""
+msgstr "Dados do Usuário"
 
 #: cms/templates/export.html
 msgid "Course Team Data"
@@ -11267,11 +11250,11 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Certificates"
-msgstr ""
+msgstr "Certificados"
 
 #: cms/templates/export.html
 msgid "Why export a course?"
-msgstr ""
+msgstr "Por que exportar um curso?"
 
 #: cms/templates/export.html
 msgid ""
@@ -11283,7 +11266,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "What content is exported?"
-msgstr ""
+msgstr "Qual conteúdo é exportado?"
 
 #: cms/templates/export.html
 msgid ""
@@ -11295,7 +11278,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Opening the downloaded file"
-msgstr ""
+msgstr "Abrindo o arquivo baixado"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
@@ -11307,20 +11290,20 @@ msgstr ""
 
 #: cms/templates/export_git.html
 msgid "Export Course to Git"
-msgstr ""
+msgstr "Curso de Exportação para Git"
 
 #: cms/templates/export_git.html cms/templates/export_git.html
 #: cms/templates/widgets/header.html
 msgid "Export to Git"
-msgstr ""
+msgstr "Exportar para Git"
 
 #: cms/templates/export_git.html
 msgid "About Export to Git"
-msgstr ""
+msgstr "Sobre Exportar para Git"
 
 #: cms/templates/export_git.html
 msgid "Use this to export your course to its git repository."
-msgstr ""
+msgstr "Use-o para exportar o seu curso para seu repositório git."
 
 #: cms/templates/export_git.html
 msgid ""
@@ -11331,7 +11314,7 @@ msgstr ""
 
 #: cms/templates/export_git.html
 msgid "Export Course to Git:"
-msgstr ""
+msgstr "Exportar Curso para Git:"
 
 #: cms/templates/export_git.html
 msgid ""
@@ -11340,27 +11323,27 @@ msgstr ""
 
 #: cms/templates/export_git.html
 msgid "Export Failed"
-msgstr ""
+msgstr "Falha na Exportação"
 
 #: cms/templates/export_git.html
 msgid "Export Succeeded"
-msgstr ""
+msgstr "Exportação Sucedida"
 
 #: cms/templates/export_git.html
 msgid "Your course:"
-msgstr ""
+msgstr "Seu curso:"
 
 #: cms/templates/export_git.html
 msgid "Course git url:"
-msgstr ""
+msgstr "Url git do curso"
 
 #: cms/templates/howitworks.html
 msgid "Welcome"
-msgstr ""
+msgstr "Bem-vindo"
 
 #: cms/templates/howitworks.html
 msgid "Welcome to"
-msgstr ""
+msgstr "Bem-vindo ao"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -11994,7 +11977,7 @@ msgstr ""
 
 #: cms/templates/login.html cms/templates/register.html
 msgid "Email Address"
-msgstr ""
+msgstr "Endereço de e-mail"
 
 #: cms/templates/login.html
 msgid "Studio Support"
@@ -12009,21 +11992,21 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Course Team Settings"
-msgstr ""
+msgstr "Configurações da Equipe do Curso"
 
 #: cms/templates/manage_users.html cms/templates/settings.html
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Course Team"
-msgstr ""
+msgstr "Equipe do Curso"
 
 #: cms/templates/manage_users.html
 msgid "New Team Member"
-msgstr ""
+msgstr "Novo Membro da Equipe"
 
 #: cms/templates/manage_users.html
 msgid "Add a User to Your Course's Team"
-msgstr ""
+msgstr "Adicionar um usuário para sua equipe do curso"
 
 #: cms/templates/manage_users.html
 msgid "New Team Member Information"
@@ -12045,23 +12028,23 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Add User"
-msgstr ""
+msgstr "Adicionar Usuário"
 
 #: cms/templates/manage_users.html cms/templates/manage_users.html
 msgid "Current Role:"
-msgstr ""
+msgstr "Papel atual:"
 
 #: cms/templates/manage_users.html cms/templates/manage_users.html
 msgid "You!"
-msgstr ""
+msgstr "Você!"
 
 #: cms/templates/manage_users.html
 msgid "Staff"
-msgstr ""
+msgstr "Equipe"
 
 #: cms/templates/manage_users.html
 msgid "send an email message to {email}"
-msgstr ""
+msgstr "enviar uma mensagem de e-mail para {email}"
 
 #: cms/templates/manage_users.html
 msgid "Promote another member to Admin to remove your admin rights"
@@ -12069,33 +12052,36 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Remove Admin Access"
-msgstr ""
+msgstr "Remover Acesso de Administrador"
 
 #: cms/templates/manage_users.html
 msgid "Add Admin Access"
-msgstr ""
+msgstr "Adicionar Acesso de Administrador"
 
 #: cms/templates/manage_users.html
 msgid "Delete the user, {username}"
-msgstr ""
+msgstr "Excluir o usuário, {username}"
 
 #: cms/templates/manage_users.html
 msgid "Add Team Members to This Course"
-msgstr ""
+msgstr "Adicionar Membros da Equipe para este curso"
 
 #: cms/templates/manage_users.html
 msgid ""
 "Adding team members makes course authoring collaborative. Users must be "
 "signed up for Studio and have an active account. "
 msgstr ""
+"Adicionando membros da equipe torna a criação do curso colaborativa. Usuários devem ser " 
+"se inscrever para o Studio e ter uma conta ativa."
+
 
 #: cms/templates/manage_users.html
 msgid "Add a New Team Member"
-msgstr ""
+msgstr "Adicionar um Novo Membro da Equipe"
 
 #: cms/templates/manage_users.html
 msgid "Course Team Roles"
-msgstr ""
+msgstr "Funções da Equipe do Curso"
 
 #: cms/templates/manage_users.html
 msgid ""
@@ -12122,88 +12108,88 @@ msgstr ""
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "Course Outline"
-msgstr ""
+msgstr "Esboço do Curso"
 
 #: cms/templates/overview.html cms/templates/overview.html
 #: cms/templates/overview.html
 msgid "Expand/collapse this section"
-msgstr ""
+msgstr "Expandir/recolher esta seção"
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "New Section Name"
-msgstr ""
+msgstr "Novo Nome da seção"
 
 #: cms/templates/overview.html
 msgid "Add a new section name"
-msgstr ""
+msgstr "Adicionar um novo nome da seção"
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "Delete this section"
-msgstr ""
+msgstr "Apagar esta seção"
 
 #: cms/templates/overview.html
 msgid "Drag to re-order"
-msgstr ""
+msgstr "Arraste para reordenar"
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "New Subsection"
-msgstr ""
+msgstr "Nova Subseção"
 
 #: cms/templates/overview.html cms/templates/widgets/units.html
 msgid "New Unit"
-msgstr ""
+msgstr "Nova Unidade"
 
 #: cms/templates/overview.html
 msgid "You haven't added any sections to your course outline yet."
-msgstr ""
+msgstr "Você não adicionou nenhuma seções para o seu esboço de curso ainda."
 
 #: cms/templates/overview.html
 msgid "Add your first section"
-msgstr ""
+msgstr "Adicione a sua primeira seção"
 
 #: cms/templates/overview.html
 msgid "Collapse All Sections"
-msgstr ""
+msgstr "Recolher todas as seções"
 
 #: cms/templates/overview.html
 msgid "New Section"
-msgstr ""
+msgstr "Nova Seção"
 
 #: cms/templates/overview.html
 msgid "This section is not scheduled for release"
-msgstr ""
+msgstr "Esta seção não está agendada para lançamento"
 
 #: cms/templates/overview.html
 msgid "Schedule"
-msgstr ""
+msgstr "Horário"
 
 #: cms/templates/overview.html
 msgid "Release date:"
-msgstr ""
+msgstr "Data de lançamento:"
 
 #: cms/templates/overview.html
 msgid "Edit section release date"
-msgstr ""
+msgstr "Editar data de lançamento da seção"
 
 #: cms/templates/overview.html
 msgid "Delete section"
-msgstr ""
+msgstr "Excluir seção"
 
 #: cms/templates/overview.html
 msgid "Drag to reorder section"
-msgstr ""
+msgstr "Arraste para reordenar a seção"
 
 #: cms/templates/overview.html
 msgid "Expand/collapse this subsection"
-msgstr ""
+msgstr "Expandir/recolher esta subseção"
 
 #: cms/templates/overview.html
 msgid "Delete this subsection"
-msgstr ""
+msgstr "Excluir esta subseção"
 
 #: cms/templates/overview.html
 msgid "Delete subsection"
-msgstr ""
+msgstr "Excluir subseção"
 
 #: cms/templates/overview.html
 msgid ""
@@ -12221,7 +12207,7 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Section Release Date"
-msgstr ""
+msgstr "Data de Lançamento da Seção"
 
 #: cms/templates/overview.html
 msgid ""
@@ -12231,15 +12217,15 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Form Actions"
-msgstr ""
+msgstr "Ações de Formulário"
 
 #: cms/templates/register.html
 msgid "Sign Up for edX Studio"
-msgstr ""
+msgstr "Cadastre-se para edX Studio"
 
 #: cms/templates/register.html
 msgid "Already have a Studio Account? Sign in"
-msgstr ""
+msgstr "Já tem uma conta Studio? Entre"
 
 #: cms/templates/register.html
 msgid ""
@@ -12543,19 +12529,19 @@ msgstr ""
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Configurações Avançadas"
 
 #: cms/templates/settings_advanced.html
 msgid "Your policy changes have been saved."
-msgstr ""
+msgstr "Suas mudanças políticas foram salvas."
 
 #: cms/templates/settings_advanced.html
 msgid "There was an error saving your information. Please see below."
-msgstr ""
+msgstr "Houve um erro ao salvar suas informações. Por favor, veja abaixo."
 
 #: cms/templates/settings_advanced.html
 msgid "Manual Policy Definition"
-msgstr ""
+msgstr "Definição do Manual de Política"
 
 #: cms/templates/settings_advanced.html
 msgid ""
@@ -12565,7 +12551,7 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html
 msgid "What do advanced settings do?"
-msgstr ""
+msgstr "O que a configuração avançada faz?"
 
 #: cms/templates/settings_advanced.html
 msgid ""
@@ -12590,7 +12576,7 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 msgid "Details &amp; Schedule"
-msgstr ""
+msgstr "Detalhes &amp; Horário"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Settings"
