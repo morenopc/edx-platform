@@ -4768,7 +4768,7 @@ msgid ""
 "Enter your desired full name, as it will appear on your {platform} "
 "{cert_name_short}:"
 msgstr ""
-"Coloque seu nome completo desejado, este nome irá aparecer na seu {cert_name_short} "
+"Coloque seu nome completo desejado, este nome irá aparecer no seu {cert_name_short} "
 "{platform}:"
 
 #: lms/templates/dashboard.html
@@ -9698,7 +9698,7 @@ msgid ""
 " please email us at {email}."
 msgstr ""
 "Por favor, aguarde alguns segundos e em seguida recarregue a página. Se o problema persistir," 
-" envie um email para {email}".
+" envie um email para {email}."
 
 #: lms/templates/static_templates/server-overloaded.html
 msgid "Currently the {platform_name} servers are overloaded"
@@ -11674,7 +11674,7 @@ msgstr ""
 
 #: cms/templates/import.html
 msgid "Warning: Importing while a course is running"
-msgstr ""
+msgstr "Aviso: Importando enquanto um curso está sendo executado"
 
 #: cms/templates/import.html
 msgid ""
@@ -11686,31 +11686,31 @@ msgstr ""
 
 #: cms/templates/import.html
 msgid "There was an error during the upload process."
-msgstr ""
+msgstr "Houve um erro durante o processo de upload."
 
 #: cms/templates/import.html
 msgid "There was an error while unpacking the file."
-msgstr ""
+msgstr "Houve um erro ao descompactar o arquivo."
 
 #: cms/templates/import.html
 msgid "There was an error while verifying the file you submitted."
-msgstr ""
+msgstr "Houve um erro ao verificar o arquivo que você enviou."
 
 #: cms/templates/import.html
 msgid "There was an error while importing the new course to our database."
-msgstr ""
+msgstr "Houve um erro ao importar o novo curso para o nosso banco de dados."
 
 #: cms/templates/import.html
 msgid "Your import has failed."
-msgstr ""
+msgstr "Sua importação falhou."
 
 #: cms/templates/import.html cms/templates/import.html
 msgid "Choose new file"
-msgstr ""
+msgstr "Escolha novo arquivo"
 
 #: cms/templates/import.html
 msgid "Your import is in progress; navigating away will abort it."
-msgstr ""
+msgstr "Sua importação está em andamento; navegar irá abortar."
 
 #: cms/templates/index.html cms/templates/index.html
 #: cms/templates/widgets/header.html
@@ -11723,7 +11723,7 @@ msgstr "Novo Curso"
 
 #: cms/templates/index.html
 msgid "Email staff to create course"
-msgstr ""
+msgstr "E-mail da equipe para criar curso"
 
 #: cms/templates/index.html
 msgid "Welcome, {0}!"
@@ -11731,15 +11731,15 @@ msgstr "Bem-vindo, {0}!"
 
 #: cms/templates/index.html
 msgid "Here are all of the courses you currently have access to in Studio:"
-msgstr ""
+msgstr "Aqui estão todos os cursos que você tem acesso no Studio:"
 
 #: cms/templates/index.html
 msgid "You currently aren't associated with any Studio Courses."
-msgstr ""
+msgstr "Você não está associado a nenhum Cursos no Studio."
 
 #: cms/templates/index.html
 msgid "Please correct the highlighted fields below."
-msgstr ""
+msgstr "Por favor, corrija os campos destacados abaixo."
 
 #: cms/templates/index.html
 msgid "Create a New Course"
@@ -11763,11 +11763,11 @@ msgstr "Organização"
 
 #: cms/templates/index.html
 msgid "e.g. UniversityX or OrganizationX"
-msgstr ""
+msgstr "por exemplo UniversidadeX ou OrganizaçãoX"
 
 #: cms/templates/index.html
 msgid "The name of the organization sponsoring the course."
-msgstr ""
+msgstr "O nome da organização patrocinadora do curso."
 
 #: cms/templates/index.html
 msgid ""
@@ -11783,7 +11783,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "e.g. CS101"
-msgstr ""
+msgstr "por exemplo CS101"
 
 #: cms/templates/index.html
 msgid ""
@@ -11802,15 +11802,15 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "e.g. 2014_T1"
-msgstr ""
+msgstr "por exemplo 2014_T1"
 
 #: cms/templates/index.html
 msgid "The term in which your course will run."
-msgstr ""
+msgstr "O prazo em que o seu curso será executado."
 
 #: cms/templates/index.html
 msgid "Create"
-msgstr ""
+msgstr "Criar"
 
 #: cms/templates/index.html
 msgid "Course Run:"
@@ -11818,7 +11818,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Are you staff on an existing Studio course?"
-msgstr ""
+msgstr "Você faz parte da equipe de um curso existente?"
 
 #: cms/templates/index.html
 msgid ""
@@ -11829,15 +11829,15 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Create Your First Course"
-msgstr ""
+msgstr "Criar seu primeiro curso"
 
 #: cms/templates/index.html
 msgid "Your new course is just a click away!"
-msgstr ""
+msgstr "Seu novo curso está apenas a um clique de distância!"
 
 #: cms/templates/index.html
 msgid "Becoming a Course Creator in Studio"
-msgstr ""
+msgstr "Tornar-se um Criador de Curso no Studio"
 
 #: cms/templates/index.html
 msgid ""
@@ -11850,15 +11850,15 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/index.html cms/templates/index.html
 msgid "Your Course Creator Request Status:"
-msgstr ""
+msgstr "Status da sua Solicitação de Criador de Curso:"
 
 #: cms/templates/index.html
 msgid "Request the Ability to Create Courses"
-msgstr ""
+msgstr "Solicite a capacidade de criar Cursos"
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Your Course Creator Request Status"
-msgstr ""
+msgstr "Status da sua Solicitação de Criador de Curso"
 
 #: cms/templates/index.html
 msgid ""
@@ -11894,10 +11894,12 @@ msgid ""
 "Your request is currently being reviewed by edX staff and should be updated "
 "shortly."
 msgstr ""
+"O seu pedido está a ser revisto pela equipe edX e deve ser atualizado " 
+"em breve".
 
 #: cms/templates/index.html
 msgid "New to edX Studio?"
-msgstr ""
+msgstr "Novo no edX Studio?"
 
 #: cms/templates/index.html
 msgid ""
@@ -11909,45 +11911,47 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Getting Started with edX Studio"
-msgstr ""
+msgstr "Começando com o edX Studio"
 
 #: cms/templates/index.html cms/templates/widgets/sock.html
 msgid "Request help with edX Studio"
-msgstr ""
+msgstr "Pedido de ajuda com edX Studio"
 
 #: cms/templates/index.html cms/templates/index.html cms/templates/index.html
 msgid "Can I create courses in Studio?"
-msgstr ""
+msgstr "Posso criar cursos no Studio?"
 
 #: cms/templates/index.html
 msgid "In order to create courses in Studio, you must"
-msgstr ""
+msgstr "A fim de criar cursos no Studio, você deve"
 
 #: cms/templates/index.html
 msgid "contact edX staff to help you create a course"
-msgstr ""
+msgstr "entrar em contato com a equipe ESO para ajudá-lo a criar um curso"
 
 #: cms/templates/index.html
 msgid ""
 "In order to create courses in Studio, you must have course creator "
 "privileges to create your own course."
 msgstr ""
+"A fim de criar cursos no Studio, você deve ter os privilégios de criador de curso " 
+"para criar o seu próprio curso."
 
 #: cms/templates/index.html
 msgid "Your request to author courses in studio has been denied. Please"
-msgstr ""
+msgstr "O seu pedido para autor de cursos no studio foi negado. Por favor"
 
 #: cms/templates/index.html
 msgid "contact edX Staff with further questions"
-msgstr ""
+msgstr "entre em contato com a Equipe ESO com mais perguntas"
 
 #: cms/templates/index.html
 msgid "Thanks for signing up, %(name)s!"
-msgstr ""
+msgstr "Obrigado por se inscrever, %(name)s!"
 
 #: cms/templates/index.html
 msgid "We need to verify your email address"
-msgstr ""
+msgstr "Precisamos verificar o seu endereço de email"
 
 #: cms/templates/index.html
 msgid ""
@@ -11955,10 +11959,14 @@ msgid ""
 "email address (%(email)s). An activation message and next steps should be "
 "waiting for you there."
 msgstr ""
+"Quase lá! Para completar sua inscrição precisamos que você verifique o seu " 
+"endereço de e-mail (%(email)s). Uma mensagem de ativação e os próximos passos devem ser" 
+"esperados por você lá."
+
 
 #: cms/templates/index.html
 msgid "Need help?"
-msgstr ""
+msgstr "Precisa de ajuda?"
 
 #: cms/templates/index.html
 msgid ""
@@ -11969,19 +11977,19 @@ msgstr ""
 
 #: cms/templates/login.html cms/templates/widgets/header.html
 msgid "Sign In"
-msgstr ""
+msgstr "Entrar"
 
 #: cms/templates/login.html cms/templates/login.html
 msgid "Sign In to edX Studio"
-msgstr ""
+msgstr "Entrar no edx Studio"
 
 #: cms/templates/login.html
 msgid "Don't have a Studio Account? Sign up!"
-msgstr ""
+msgstr "Não tem uma Conta Studio? Inscrever-se!"
 
 #: cms/templates/login.html
 msgid "Required Information to Sign In to edX Studio"
-msgstr ""
+msgstr "Informações necessárias Entrar para edX Studio"
 
 #: cms/templates/login.html cms/templates/register.html
 msgid "Email Address"
@@ -11989,7 +11997,7 @@ msgstr "Endereço de e-mail"
 
 #: cms/templates/login.html
 msgid "Studio Support"
-msgstr ""
+msgstr "Suporte Studio"
 
 #: cms/templates/login.html
 msgid ""
@@ -12018,21 +12026,23 @@ msgstr "Adicionar um usuário para sua equipe do curso"
 
 #: cms/templates/manage_users.html
 msgid "New Team Member Information"
-msgstr ""
+msgstr "Novas Informações do Membro da Equipe"
 
 #: cms/templates/manage_users.html
 msgid "User's Email Address"
-msgstr ""
+msgstr "Endereço de E-mail do Usuário"
 
 #: cms/templates/manage_users.html
 msgid "e.g. jane.doe@gmail.com"
-msgstr ""
+msgstr "por exemplo roger@gmail.com"
 
 #: cms/templates/manage_users.html
 msgid ""
 "Please provide the email address of the course staff member you'd like to "
 "add"
 msgstr ""
+"Por favor, forneça o endereço de e-mail do membro da equipe do curso de que você gostaria de " 
+"adicionar"
 
 #: cms/templates/manage_users.html
 msgid "Add User"
@@ -12056,7 +12066,7 @@ msgstr "enviar uma mensagem de e-mail para {email}"
 
 #: cms/templates/manage_users.html
 msgid "Promote another member to Admin to remove your admin rights"
-msgstr ""
+msgstr "Promover um outro membro para administrador e remover os seus direitos de administrador"
 
 #: cms/templates/manage_users.html
 msgid "Remove Admin Access"
