@@ -173,7 +173,7 @@ require(["domReady!", "jquery", "js/models/location", "js/models/section", "js/v
                         <div class="section-published-date">
                           <%
                             if section.start is not None:
-                                start_date_str = section.start.strftime('%m/%d/%Y')
+                                start_date_str = section.start.strftime('%d/%m/%Y')
                                 start_time_str = section.start.strftime('%H:%M')
                             else:
                                 start_date_str = ''
