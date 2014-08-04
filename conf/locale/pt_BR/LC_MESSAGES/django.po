@@ -3488,7 +3488,7 @@ msgid ""
 " user account at edx.org."
 msgstr ""
 "Você está recebendo este e-mail porque você solicitou a redefinição da senha"
-" de sua conta de usuário no edx.org."
+" de sua conta de usuário no eso.org.br."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
@@ -3499,6 +3499,8 @@ msgid ""
 "If you didn't request this change, you can disregard this email - we have "
 "not yet reset your password."
 msgstr ""
+"Se você não solicitou essa alteração, desconsidere este e-mail - nós "
+"ainda não redefinimos sua senha."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Thanks for using our site!"
@@ -3506,7 +3508,7 @@ msgstr "Obrigado por usar nosso site!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
-msgstr "A Equipe do edX"
+msgstr "A Equipe ESO"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
@@ -4740,7 +4742,7 @@ msgid ""
 "We will send a confirmation to both {email} and your new email as part of "
 "the process."
 msgstr ""
-"Enviaremos uma confirmação para o {email} e seu novo e-mail como parte do "
+"Enviaremos uma confirmação para {email} e também para seu novo e-mail como parte do "
 "processo."
 
 #: lms/templates/dashboard.html
@@ -4755,6 +4757,8 @@ msgid ""
 "To uphold the credibility of your {platform} {cert_name_short}, all name "
 "changes will be logged and recorded."
 msgstr ""
+"Para manter a credibilidade do {cert_name_short} {platform}, todas mudanças de " 
+"nome serão registradas e gravadas."
 
 #. Translators: note that {platform} {cert_name_short} will look something
 #. like: "edX certificate". Please do not change the order of these
@@ -4764,8 +4768,8 @@ msgid ""
 "Enter your desired full name, as it will appear on your {platform} "
 "{cert_name_short}:"
 msgstr ""
-"Coloque seu nome completo desejado, este nome irá aparecer na sua {platform} "
-"{cert_name_short}:"
+"Coloque seu nome completo desejado, este nome irá aparecer na seu {cert_name_short} "
+"{platform}:"
 
 #: lms/templates/dashboard.html
 #: lms/templates/verify_student/_modal_editname.html
@@ -4793,7 +4797,7 @@ msgstr "Cancelar inscrição"
 
 #: lms/templates/edit_unit_link.html
 msgid "View Unit in Studio"
-msgstr ""
+msgstr "Ver Unidade no Studio"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 msgid "E-mail change failed"
@@ -9405,17 +9409,19 @@ msgstr "Inscrever-se para [Course Name] | Recibo (Pedido"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Thank you for your Purchase!"
-msgstr ""
+msgstr "Obrigado por sua compra!"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid ""
 "Please print this receipt page for your records. You should also have "
 "received a receipt in your email."
 msgstr ""
+"Favor imprimir esta página de recibo para seus registros. Você também deve ter " 
+"recebido uma cópia em seu e-mail."
 
 #: lms/templates/shoppingcart/receipt.html
 msgid " () Electronic Receipt"
-msgstr "() Recibo Eletrônico"
+msgstr " () Recibo Eletrônico"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Order #"
@@ -9645,7 +9651,7 @@ msgid ""
 "here for possible use by installations of Open edX."
 msgstr ""
 "Esta página foi deixada intencionalmente em branco. Ela não é usada pela "
-"edx.org mas fica aqui para possível uso por instalações do Open edX."
+"eso.org.br mas fica aqui para possível uso por instalações do Open edX."
 
 #: lms/templates/static_templates/embargo.html
 msgid "This Course Unavailable In Your Country"
@@ -9673,7 +9679,7 @@ msgstr "Na Imprensa"
 
 #: lms/templates/static_templates/server-down.html
 msgid "Currently the {platform_name} servers are down"
-msgstr ""
+msgstr "Atualmente, os servidores {platform_name} estão fora do ar"
 
 #: lms/templates/static_templates/server-down.html
 #: lms/templates/static_templates/server-overloaded.html
@@ -9684,17 +9690,19 @@ msgstr ""
 
 #: lms/templates/static_templates/server-error.html
 msgid "There has been a 500 error on the {platform_name} servers"
-msgstr ""
+msgstr "Houve um erro 500 nos servidores {platform_name}"
 
 #: lms/templates/static_templates/server-error.html
 msgid ""
 "Please wait a few seconds and then reload the page. If the problem persists,"
 " please email us at {email}."
 msgstr ""
+"Por favor, aguarde alguns segundos e em seguida recarregue a página. Se o problema persistir," 
+" envie um email para {email}".
 
 #: lms/templates/static_templates/server-overloaded.html
 msgid "Currently the {platform_name} servers are overloaded"
-msgstr ""
+msgstr "Atualmente, os servidores {platform_name} estão sobrecarregados"
 
 #: lms/templates/university_profile/edge.html
 #: lms/templates/university_profile/edge.html
@@ -9727,7 +9735,7 @@ msgid ""
 "To uphold the credibility of {platform} certificates, all name changes will "
 "be logged and recorded."
 msgstr ""
-"Para manter a credibilidade dos certificados emitidos por {platform}, todas "
+"Para manter a credibilidade dos certificados emitidos pela {platform}, todas "
 "as alterações de nomes serão registradas e gravadas. "
 
 #: lms/templates/verify_student/_modal_editname.html
