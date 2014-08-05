@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Convenience methods for working with datetime objects
 """
@@ -73,10 +74,10 @@ def almost_same_datetime(dt1, dt2, allowed_delta=timedelta(minutes=1)):
     return abs(dt1 - dt2) < allowed_delta
 
 
-DEFAULT_SHORT_DATE_FORMAT = "%b %d, %Y"
-DEFAULT_LONG_DATE_FORMAT = "%A, %B %d, %Y"
-DEFAULT_TIME_FORMAT = "%I:%M:%S %p"
-DEFAULT_DATE_TIME_FORMAT = "%b %d, %Y at %H:%M"
+DEFAULT_SHORT_DATE_FORMAT = "%d %b %Y"
+DEFAULT_LONG_DATE_FORMAT = "%A, %d de %B de %Y"
+DEFAULT_TIME_FORMAT = "%H:%M:%S"
+DEFAULT_DATE_TIME_FORMAT = u"%d %b %Y às %H:%M"
 
 
 def strftime_localized(dtime, format):      # pylint: disable=redefined-builtin

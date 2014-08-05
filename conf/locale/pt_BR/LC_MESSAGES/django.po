@@ -10752,25 +10752,27 @@ msgstr ""
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 #: cms/templates/activation_invalid.html
 msgid "Studio Account Activation"
-msgstr ""
+msgstr "Sua conta já está ativa"
 
 #: cms/templates/activation_active.html
 msgid "Your account is already active"
-msgstr ""
+msgstr "Sua conta já está ativa"
 
 #: cms/templates/activation_active.html
 msgid ""
 "This account, set up using {0}, has already been activated. Please sign in "
 "to start working within edX Studio."
 msgstr ""
+"Esta conta configurada usando {0}, já foi ativada. Faça o login " 
+"para começar a trabalhar dentro do edX Studio."
 
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 msgid "Sign into Studio"
-msgstr ""
+msgstr "Entrar no Studio"
 
 #: cms/templates/activation_complete.html
 msgid "Your account activation is complete!"
-msgstr ""
+msgstr "A ativação da sua conta está completa!"
 
 #: cms/templates/activation_complete.html
 msgid ""
@@ -10790,12 +10792,18 @@ msgid ""
 "the URL you went to was correct &mdash; e-mail programs will sometimes split"
 " it into two lines."
 msgstr ""
+"Lamentamos. Algo deu errado com a sua ativação. Certifique-se " 
+"a URL que você acessou era correta &mdash; programas de email às vezes dividem" 
+" a URL em duas linhas."
+
 
 #: cms/templates/activation_invalid.html
 msgid ""
 "If you still have issues, contact edX Support. In the meatime, you can also "
 "return to"
 msgstr ""
+"Se você ainda tiver problemas, contate o Suporte edX. Neste período você também pode" 
+"retornar à"
 
 #: cms/templates/activation_invalid.html
 msgid "Contact edX Support"
@@ -10817,11 +10825,11 @@ msgstr "Escolher arquivo"
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/asset_index.html
 msgid "Upload New File"
-msgstr ""
+msgstr "Carregar Novo Arquivo"
 
 #: cms/templates/asset_index.html
 msgid "Load Another File"
-msgstr ""
+msgstr "Carregar Outro Arquivo"
 
 #: cms/templates/asset_index.html cms/templates/course_info.html
 #: cms/templates/edit-tabs.html cms/templates/overview.html
@@ -10856,7 +10864,7 @@ msgstr ""
 
 #: cms/templates/asset_index.html
 msgid "File URLs"
-msgstr ""
+msgstr "URLs do Arquivo"
 
 #: cms/templates/asset_index.html
 msgid ""
@@ -10899,7 +10907,7 @@ msgstr "Ferramentas"
 
 #: cms/templates/checklists.html
 msgid "Course Checklists"
-msgstr "As listas de Verificação do Curso"
+msgstr "As Listas de Verificação do Curso"
 
 #: cms/templates/checklists.html
 msgid "Current Checklists"
@@ -10924,7 +10932,7 @@ msgstr ""
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicar"
 
 #: cms/templates/component.html
 msgid "Duplicate this component"
@@ -10976,11 +10984,11 @@ msgstr ""
 
 #: cms/templates/course_info.html cms/templates/course_info.html
 msgid "Course Updates"
-msgstr ""
+msgstr "Atualizações de Curso"
 
 #: cms/templates/course_info.html
 msgid "New Update"
-msgstr ""
+msgstr "Nova Atualização"
 
 #: cms/templates/course_info.html
 msgid ""
@@ -10994,11 +11002,11 @@ msgstr ""
 #: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
 #: cms/templates/export.html cms/templates/widgets/header.html
 msgid "Pages"
-msgstr ""
+msgstr "Páginas"
 
 #: cms/templates/edit-tabs.html
 msgid "New Page"
-msgstr ""
+msgstr "Nova Página"
 
 #: cms/templates/edit-tabs.html cms/templates/edit_subsection.html
 #: cms/templates/index.html cms/templates/overview.html
@@ -11023,19 +11031,19 @@ msgstr "Mostrar/Esconder página"
 
 #: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
 msgid "This page cannot be reordered"
-msgstr ""
+msgstr "Esta página não pode ser reordenadas"
 
 #: cms/templates/edit-tabs.html
 msgid "You can add additional custom pages to your course."
-msgstr ""
+msgstr "Você pode adicionar páginas personalizadas para o seu curso."
 
 #: cms/templates/edit-tabs.html
 msgid "Add a New Page"
-msgstr ""
+msgstr "Adicionar Nova Página"
 
 #: cms/templates/edit-tabs.html
 msgid "What are pages?"
-msgstr ""
+msgstr "O que são páginas?"
 
 #: cms/templates/edit-tabs.html
 msgid ""
@@ -11046,7 +11054,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "Custom pages"
-msgstr ""
+msgstr "Páginas personalizadas"
 
 #: cms/templates/edit-tabs.html
 msgid ""
@@ -11067,15 +11075,15 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "See an example"
-msgstr ""
+msgstr "Veja um exemplo"
 
 #: cms/templates/edit-tabs.html
 msgid "Pages in Your Course"
-msgstr ""
+msgstr "Páginas em seu curso"
 
 #: cms/templates/edit-tabs.html
 msgid "Preview of Pages in your course"
-msgstr ""
+msgstr "Pré-visualização de páginas em seu curso"
 
 #: cms/templates/edit-tabs.html
 msgid ""
@@ -11091,7 +11099,7 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html
 msgid "CMS Subsection"
-msgstr ""
+msgstr "CMS Subseção"
 
 #: cms/templates/edit_subsection.html cms/templates/unit.html
 msgid "Display Name:"
@@ -11137,7 +11145,7 @@ msgstr "Sincronize a {name}."
 
 #: cms/templates/edit_subsection.html
 msgid "Graded as:"
-msgstr ""
+msgstr "Classificado como:"
 
 #: cms/templates/edit_subsection.html
 msgid "Set a due date"
@@ -11902,7 +11910,7 @@ msgid ""
 "shortly."
 msgstr ""
 "O seu pedido está a ser revisto pela equipe edX e deve ser atualizado " 
-"em breve".
+"em breve."
 
 #: cms/templates/index.html
 msgid "New to edX Studio?"
@@ -11992,7 +12000,7 @@ msgstr "Entrar no edx Studio"
 
 #: cms/templates/login.html
 msgid "Don't have a Studio Account? Sign up!"
-msgstr "Não tem uma Conta Studio? Inscrever-se!"
+msgstr "Não tem uma Conta Studio? Inscreva-se!"
 
 #: cms/templates/login.html
 msgid "Required Information to Sign In to edX Studio"
@@ -12012,6 +12020,10 @@ msgid ""
 "center{link_end} to look over self help steps, find solutions others have "
 "found to the same problem, or let us know of your issue."
 msgstr ""
+"Tendo problemas com a sua conta? Use {link_start}nosso centro de suporte{link_end}" 
+" para visualizar as etapas de auto-ajuda. Veja soluções que outros " 
+"encontraram para o mesmo problema, ou deixe-nos saber de seu problema."
+
 
 #: cms/templates/manage_users.html
 msgid "Course Team Settings"
@@ -12520,11 +12532,11 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Time spent on all course work"
-msgstr ""
+msgstr "Tempo gasto em todo o trabalho de curso"
 
 #: cms/templates/settings.html
 msgid "How are these settings used?"
-msgstr ""
+msgstr "Como essas configurações são usadas?"
 
 #: cms/templates/settings.html
 msgid ""
@@ -12543,12 +12555,12 @@ msgstr ""
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_graders.html
 msgid "Other Course Settings"
-msgstr ""
+msgstr "Outras configurações do curso"
 
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_graders.html cms/templates/widgets/header.html
 msgid "Grading"
-msgstr ""
+msgstr "Pontuação"
 
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
@@ -12605,43 +12617,43 @@ msgstr "Detalhes &amp; Horário"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Settings"
-msgstr ""
+msgstr "Configurações de Pontuação"
 
 #: cms/templates/settings_graders.html
 msgid "Overall Grade Range"
-msgstr ""
+msgstr "Escala de Classificação"
 
 #: cms/templates/settings_graders.html
 msgid "Your overall grading scale for student final grades"
-msgstr ""
+msgstr "Sua escala de classificação para as notas finais dos alunos"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Rules &amp; Policies"
-msgstr ""
+msgstr "Regras de Pontuação &amp; políticas"
 
 #: cms/templates/settings_graders.html
 msgid "Deadlines, requirements, and logistics around grading student work"
-msgstr ""
+msgstr "Prazos, requisitos e logística em todo o trabalho do aluno de graduação"
 
 #: cms/templates/settings_graders.html
 msgid "Grace Period on Deadline:"
-msgstr ""
+msgstr "Prazo de Carência:"
 
 #: cms/templates/settings_graders.html
 msgid "Leeway on due dates"
-msgstr ""
+msgstr "Margem sobre as datas de vencimento"
 
 #: cms/templates/settings_graders.html
 msgid "Assignment Types"
-msgstr ""
+msgstr "Tipos de Atribuição"
 
 #: cms/templates/settings_graders.html
 msgid "Categories and labels for any exercises that are gradable"
-msgstr ""
+msgstr "Categorias e rótulos para todos os exercícios que são graduáveis"
 
 #: cms/templates/settings_graders.html
 msgid "New Assignment Type"
-msgstr ""
+msgstr "Novo Tipo de Atribuição"
 
 #: cms/templates/settings_graders.html
 msgid ""
@@ -12674,7 +12686,7 @@ msgstr "Nenhum ação"
 
 #: cms/templates/textbooks.html
 msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr ""
+msgstr "Você tem alterações não salvas. Você realmente deseja sair desta página?"
 
 #: cms/templates/textbooks.html
 msgid "New Textbook"
@@ -12785,11 +12797,11 @@ msgstr "Excluir Rascunho"
 
 #: cms/templates/unit.html
 msgid "Unit Location"
-msgstr ""
+msgstr "Unidade de Localização"
 
 #: cms/templates/unit.html
 msgid "Unit Identifier:"
-msgstr ""
+msgstr "Identificador Unidade:"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
@@ -12810,7 +12822,7 @@ msgstr ""
 
 #: cms/templates/emails/activation_email_subject.txt
 msgid "Your account for edX Studio"
-msgstr ""
+msgstr "Sua conta de edX Studio"
 
 #: cms/templates/emails/course_creator_admin_subject.txt
 msgid "{email} has requested Studio course creator privileges on edge"
@@ -12890,7 +12902,7 @@ msgstr "Cronograma &amp; Detalhes"
 
 #: cms/templates/widgets/header.html
 msgid "Checklists"
-msgstr ""
+msgstr "Listas de Verificação"
 
 #: cms/templates/widgets/header.html
 msgid "Import"
