@@ -128,7 +128,7 @@ msgstr ""
 #. needs to grade
 #: cms/djangoapps/contentstore/utils.py common/lib/xmodule/xmodule/tabs.py
 msgid "Open Ended Panel"
-msgstr ""
+msgstr "Painel de Correção"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Honor Code Certificate"
@@ -1273,6 +1273,14 @@ msgstr ""
 #: lms/templates/instructor/staff_grading.html
 msgid "Staff grading"
 msgstr "Avaliação pela equipe"
+
+#: lms/templates/instructor/staff_grading.html
+msgid "Problems you have submitted"
+msgstr "Problemas que foram enviados"
+
+#: lms/templates/instructor/staff_grading.html
+msgid "Flagged Submissions"
+msgstr "Inscrições Sinalizadas"
 
 #. Translators: "Peer grading" appears on a tab that allows
 #. students to view open-ended problems that require grading
@@ -3487,12 +3495,12 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at edx.org."
 msgstr ""
-"Você está recebendo este e-mail porque você solicitou a redefinição da senha"
-" de sua conta de usuário no eso.org.br."
+"Você está recebendo este e-mail porque solicitou a redefir a senha"
+" de sua conta de usuário na eso.org.br."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
-msgstr "Por favor, visite para a próxima página e escolha uma nova senha:"
+msgstr "Por favor, visite o link a seguir e escolha uma nova senha:"
 
 #: lms/templates/registration/password_reset_email.html
 msgid ""
@@ -3508,7 +3516,7 @@ msgstr "Obrigado por usar nosso site!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
-msgstr "A Equipe ESO"
+msgstr "Equipe ESO"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
@@ -8313,12 +8321,17 @@ msgid ""
 "The chart below displays the score distribution for each standard problem in"
 " your class, specified by the problem's url name."
 msgstr ""
+"O gráfico abaixo mostra a distribuição da pontuação para cada problema padrão em"
+" sua classe, especificado pelo nome da url do problema."
 
 #: lms/templates/instructor/instructor_dashboard_2/analytics.html
 msgid ""
 "Scores are shown without weighting applied, so if your problem contains 2 "
 "questions, it will display as having a total of 2 points."
 msgstr ""
+"As pontuações são mostradas sem ponderação, por isso se o seu problema contém 2 " 
+"perguntas, ele irá mostrar um total de 2 pontos."
+
 
 #: lms/templates/instructor/instructor_dashboard_2/analytics.html
 msgid "Loading problem list..."
@@ -9057,7 +9070,7 @@ msgstr "Notificações Combinadas {course_number} "
 
 #: lms/templates/open_ended_problems/combined_notifications.html
 msgid "Open Ended Console"
-msgstr "Painel Aberto"
+msgstr "Painel de Correção"
 
 #: lms/templates/open_ended_problems/combined_notifications.html
 msgid "Here are items that could potentially need your attention."

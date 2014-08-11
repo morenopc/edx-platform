@@ -8,7 +8,7 @@ from django.core.management.base import BaseCommand, CommandError
 from certificates.queue import XQueueCertInterface
 from xmodule.course_module import CourseDescriptor
 from xmodule.modulestore.django import modulestore
-
+from xmodule.modulestore.locations import SlashSeparatedCourseKey
 
 class Command(BaseCommand):
     help = """Put a request on the queue to recreate the certificate for a particular user in a particular course."""
@@ -56,10 +56,16 @@ class Command(BaseCommand):
 
         student = None
         print "Fetching enrollment for student {0} in {1}".format(user, course_id)
+        
+        org, course, run = course_id.split('/')
+        slashseparatedcoursekey = SlashSeparatedCourseKey(org, course, run)
+
         if '@' in user:
-            student = User.objects.get(email=user, courseenrollment__course_id=course_id)
+            student = User.objects.get(
+                email=user, courseenrollment__course_id=slashseparatedcoursekey)
         else:
-            student = User.objects.get(username=user, courseenrollment__course_id=course_id)
+            student = User.objects.get(
+                username=user, courseenrollment__course_id=slashseparatedcoursekey)
 
         print "Fetching course data for {0}".format(course_id)
         course = modulestore().get_course(course_id, depth=2)
