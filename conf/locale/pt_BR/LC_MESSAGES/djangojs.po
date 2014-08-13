@@ -72,19 +72,19 @@ msgstr "Este link será aberto em uma nova janela/aba do navegador"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
-msgstr ""
+msgstr "Mostrar Anotações"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Hide Annotations"
-msgstr ""
+msgstr "Ocultar Anotações"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Expand Instructions"
-msgstr ""
+msgstr "Expandir Instruções"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Collapse Instructions"
-msgstr ""
+msgstr "Recolher Instruções"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Commentary"
@@ -92,7 +92,7 @@ msgstr "Comentário"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Reply to Annotation"
-msgstr ""
+msgstr "Responder a Anotação"
 
 #. Translators: %(earned)s is the number of points earned. %(total)s is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -109,7 +109,7 @@ msgstr[1] "(%(earned)s/%(possible)s pontos)"
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "(%(num_points)s point possible)"
 msgid_plural "(%(num_points)s points possible)"
-msgstr[0] "(%(num_points) ponto possível)"
+msgstr[0] "(%(num_points)s ponto possível)"
 msgstr[1] "(%(num_points)s pontos possíveis)"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
@@ -796,11 +796,11 @@ msgstr "Amanhã"
 
 #: lms/static/coffee/src/calculator.js
 msgid "Open Calculator"
-msgstr ""
+msgstr "Abrir Calculadora"
 
 #: lms/static/coffee/src/calculator.js
 msgid "Close Calculator"
-msgstr ""
+msgstr "Fechar Calculadora"
 
 #: lms/static/coffee/src/customwmd.js
 msgid "Preview"
@@ -1223,7 +1223,7 @@ msgstr "Duração (segundos)"
 #. appears after this.
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -1243,7 +1243,7 @@ msgstr ""
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Problem Name"
-msgstr ""
+msgstr "Nome do Problema"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Graded"
@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Required"
-msgstr ""
+msgstr "Necessário"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Progress"
@@ -1263,7 +1263,7 @@ msgstr "Progresso"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Back to problem list"
-msgstr ""
+msgstr "Voltar para lista de problemas"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Try loading again"
@@ -1405,15 +1405,15 @@ msgstr "Cabeçalho"
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Unknown Error Occurred."
-msgstr ""
+msgstr "Ocorreu um Erro desconhecido."
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully reset the attempts for user {user}"
-msgstr ""
+msgstr "Redefinido com sucesso as tentativas para o usuário {user}"
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Failed to reset attempts."
-msgstr ""
+msgstr "Falha ao redefinir tentativas."
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully deleted student state for user {user}"
@@ -1471,11 +1471,11 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js cms/static/js/views/overview.js
 #: cms/static/js/views/xblock_editor.js
 msgid "Saving&hellip;"
-msgstr ""
+msgstr "Salvando&hellip;"
 
 #: cms/static/coffee/src/views/tabs.js
 msgid "Delete Component Confirmation"
-msgstr ""
+msgstr "Confirmação de Exclusão de Componente"
 
 #: cms/static/coffee/src/views/tabs.js
 msgid ""
@@ -1491,23 +1491,23 @@ msgstr "Excluindo&hellip; "
 
 #: cms/static/coffee/src/views/unit.js
 msgid "Adding&hellip;"
-msgstr ""
+msgstr "Adicionando&hellip;"
 
 #: cms/static/coffee/src/views/unit.js cms/static/js/views/pages/container.js
 msgid "Duplicating&hellip;"
-msgstr ""
+msgstr "Duplicando&hellip;"
 
 #: cms/static/coffee/src/views/unit.js cms/static/js/views/pages/container.js
 msgid "Delete this component?"
-msgstr ""
+msgstr "Excluir este componente?"
 
 #: cms/static/coffee/src/views/unit.js cms/static/js/views/pages/container.js
 msgid "Deleting this component is permanent and cannot be undone."
-msgstr ""
+msgstr "Excluir este componente é permanente e não pode ser desfeito."
 
 #: cms/static/coffee/src/views/unit.js cms/static/js/views/pages/container.js
 msgid "Yes, delete this component"
-msgstr ""
+msgstr "Sim, excluir este componente"
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
@@ -1515,23 +1515,23 @@ msgstr "Este link irá abrir em uma janela modal"
 
 #: cms/static/js/base.js
 msgid "Delete this "
-msgstr ""
+msgstr "Excluir este "
 
 #: cms/static/js/base.js
 msgid "Deleting this "
-msgstr ""
+msgstr "Excluindo este "
 
 #: cms/static/js/base.js
 msgid "Yes, delete this "
-msgstr ""
+msgstr "Sim, excluir este "
 
 #: cms/static/js/index.js
 msgid "Please do not use any spaces in this field."
-msgstr ""
+msgstr "Por favor, não use espaços neste campo"
 
 #: cms/static/js/index.js
 msgid "Please do not use any spaces or special characters in this field."
-msgstr ""
+msgstr "Por favor, não use espaços ou caracteres especiais neste campo."
 
 #: cms/static/js/index.js
 msgid ""
@@ -1541,19 +1541,19 @@ msgstr ""
 
 #: cms/static/js/index.js
 msgid "Required field."
-msgstr ""
+msgstr "Campo obrigatório."
 
 #: cms/static/js/sock.js
 msgid "Hide Studio Help"
-msgstr ""
+msgstr "Esconder Ajuda do Studio"
 
 #: cms/static/js/sock.js
 msgid "Looking for Help with Studio?"
-msgstr ""
+msgstr "À procura de ajuda com o Studio?"
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
-msgstr ""
+msgstr "Você deve especificar um nome"
 
 #: cms/static/js/models/uploads.js
 msgid ""
@@ -1563,27 +1563,27 @@ msgstr ""
 
 #: cms/static/js/models/uploads.js
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course must have an assigned start date."
-msgstr ""
+msgstr "O curso deve ter uma data de início atribuída."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course end date cannot be before the course start date."
-msgstr ""
+msgstr "A data de término do curso não pode ser antes do começo do curso."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course start date cannot be before the enrollment start date."
-msgstr ""
+msgstr "A data de início do curso não pode ser anterior à data de início da inscrição."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment start date cannot be after the enrollment end date."
-msgstr ""
+msgstr "A data de início de inscrição não pode ser após a data final de inscrição."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment end date cannot be after the course end date."
-msgstr ""
+msgstr "A data final de inscrição não pode ser após a data final do curso."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "Key should only contain letters, numbers, _, or -"
@@ -1591,15 +1591,15 @@ msgstr "A chave deve conter apenas letras, números, _, ou -"
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "There's already another assignment type with this name."
-msgstr ""
+msgstr "Já existe um outro tipo de atribuição com este nome."
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer between 0 and 100."
-msgstr ""
+msgstr "Por favor insira um número inteiro entre 0 e 100."
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer greater than 0."
-msgstr ""
+msgstr "Por favor insira um número inteiro maior que 0"
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Please enter non-negative integer."
@@ -1615,7 +1615,7 @@ msgstr ""
 
 #: cms/static/js/views/asset.js
 msgid "Delete File Confirmation"
-msgstr ""
+msgstr "Excluir Arquivo de Confirmação"
 
 #: cms/static/js/views/asset.js
 msgid ""
@@ -1630,44 +1630,44 @@ msgstr ""
 
 #: cms/static/js/views/asset.js cms/static/js/views/show_textbook.js
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 #: cms/static/js/views/asset.js
 msgid "Your file has been deleted."
-msgstr ""
+msgstr "Seu arquivo foi apagado."
 
 #: cms/static/js/views/assets.js
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: cms/static/js/views/assets.js
 msgid "Date Added"
-msgstr ""
+msgstr "Data de Entrada"
 
 #: cms/static/js/views/course_info_update.js
 msgid "Are you sure you want to delete this update?"
-msgstr ""
+msgstr "Tem certeza de que deseja excluir esta atualização?"
 
 #: cms/static/js/views/course_info_update.js
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Essa ação não pode ser desfeita."
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Upload a new PDF to “<%= name %>”"
-msgstr ""
+msgstr "Carregar um novo PDF para “<%= name %>”"
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
-msgstr ""
+msgstr "Por favor, selecione um arquivo PDF para upload."
 
 #: cms/static/js/views/edit_textbook.js
 #: cms/static/js/views/overview_assignment_grader.js
 msgid "Saving"
-msgstr ""
+msgstr "Salvando"
 
 #: cms/static/js/views/import.js
 msgid "There was an error with the upload"
-msgstr ""
+msgstr "Houve um erro com o upload"
 
 #: cms/static/js/views/import.js
 msgid ""
@@ -1677,31 +1677,35 @@ msgstr ""
 
 #: cms/static/js/views/metadata.js
 msgid "Upload File"
-msgstr ""
+msgstr "Enviar arquivo"
 
 #: cms/static/js/views/overview.js
 msgid "Collapse All Sections"
-msgstr ""
+msgstr "Recolher todas as seções"
 
 #: cms/static/js/views/overview.js
 msgid "Expand All Sections"
-msgstr ""
+msgstr "Expandir todas as seções"
 
 #: cms/static/js/views/overview.js
 msgid "Release date:"
-msgstr ""
+msgstr "Data de lançamento:"
 
 #: cms/static/js/views/overview.js
 msgid "{month}/{day}/{year} at {hour}:{minute} UTC"
-msgstr ""
+msgstr "{month}/{day}/{year} às {hour}:{minute} UTC"
+
+#: cms/static/js/views/overview.js
+msgid "{day}/{month}/{year} at {hour}:{minute} UTC"
+msgstr "{day}/{month}/{year} às {hour}:{minute} UTC"
 
 #: cms/static/js/views/overview.js
 msgid "Edit section release date"
-msgstr ""
+msgstr "Editar data de lançamento da seção"
 
 #: cms/static/js/views/overview_assignment_grader.js
 msgid "Not Graded"
-msgstr ""
+msgstr "Sem Classificação"
 
 #. Translators: sample result: "Showing 0-9 out of 25 total, sorted by Date
 #. Added ascending"
@@ -1727,15 +1731,15 @@ msgstr ""
 
 #: cms/static/js/views/section_edit.js
 msgid "Your change could not be saved"
-msgstr ""
+msgstr "Sua mudança não pôde ser salva"
 
 #: cms/static/js/views/section_edit.js
 msgid "Return and resolve this issue"
-msgstr ""
+msgstr "Retornar e resolver esse problema"
 
 #: cms/static/js/views/show_textbook.js
 msgid "Delete “<%= name %>”?"
-msgstr ""
+msgstr "Excluir “<%= name %>”?"
 
 #: cms/static/js/views/show_textbook.js
 msgid ""
@@ -1745,15 +1749,15 @@ msgstr ""
 
 #: cms/static/js/views/show_textbook.js
 msgid "Deleting"
-msgstr ""
+msgstr "Excluindo"
 
 #: cms/static/js/views/uploads.js
 msgid "Upload"
-msgstr ""
+msgstr "Carregar"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
-msgstr ""
+msgstr "Lamentamos, ocorreu um erro"
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes"
@@ -1761,7 +1765,7 @@ msgstr "Você fez algumas alterações"
 
 #: cms/static/js/views/validation.js
 msgid "Your changes will not take effect until you save your progress."
-msgstr ""
+msgstr "Suas alterações não terão efeito até que você salve o seu progresso."
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
@@ -1776,7 +1780,7 @@ msgstr ""
 
 #: cms/static/js/views/validation.js
 msgid "Save Changes"
-msgstr ""
+msgstr "Salvar alterações"
 
 #: cms/static/js/views/validation.js
 msgid "Your changes have been saved."
@@ -1788,19 +1792,19 @@ msgstr ""
 
 #: cms/static/js/views/xblock_editor.js
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: cms/static/js/views/modals/base_modal.js
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
-msgstr ""
+msgstr "Componente"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Editing: %(title)s"
-msgstr ""
+msgstr "Editando: %(title)s"
 
 #: cms/static/js/views/settings/advanced.js
 msgid ""
@@ -1821,7 +1825,7 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js
 msgid "Upload your course image."
-msgstr ""
+msgstr "Envie a imagem do seu curso."
 
 #: cms/static/js/views/settings/main.js
 msgid "Files must be in JPEG or PNG format."
