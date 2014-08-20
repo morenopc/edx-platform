@@ -1,3 +1,4 @@
+import logging
 from django.core.management.base import BaseCommand, CommandError
 from certificates.models import certificate_status_for_student
 from certificates.queue import XQueueCertInterface
@@ -12,6 +13,8 @@ from xmodule.modulestore.django import modulestore
 from certificates.models import CertificateStatuses
 import datetime
 from pytz import UTC
+
+log = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
@@ -68,13 +71,14 @@ class Command(BaseCommand):
 
         STATUS_INTERVAL = 500
 
-        if options['course']:
+        course_id = options['course']
+        if course_id:
             # try to parse out the course from the serialized form
             try:
-                course = CourseKey.from_string(options['course'])
+                course = CourseKey.from_string(course_id)
             except InvalidKeyError:
                 log.warning("Course id %s could not be parsed as a CourseKey; falling back to SSCK.from_dep_str", course_id)
-                course = SlashSeparatedCourseKey.from_deprecated_string(options['course'])
+                course = SlashSeparatedCourseKey.from_deprecated_string(course_id)
             ended_courses = [course]
         else:
             raise CommandError("You must specify a course")
