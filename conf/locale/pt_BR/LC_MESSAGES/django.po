@@ -5309,7 +5309,7 @@ msgstr "Veja o recurso em uma nova janela"
 msgid ""
 "Please provide launch_url. Click \"Edit\", and fill in the required fields."
 msgstr ""
-"Por favor disponibilize uma URL de lançamento. Clique em \"Editar\" e "
+"Por favor disponibilize uma URL de início. Clique em \"Editar\" e "
 "preencha os campos necessários"
 
 #: lms/templates/lti.html
@@ -11168,11 +11168,11 @@ msgstr "Configurações de Subsecção"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Day"
-msgstr "Dia de Lançamento"
+msgstr "Dia de Início"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Time"
-msgstr "Hora do Lançamento"
+msgstr "Hora de Início"
 
 #: cms/templates/edit_subsection.html cms/templates/edit_subsection.html
 #: cms/templates/overview.html
@@ -11187,10 +11187,11 @@ msgstr ""
 msgid ""
 "The date above differs from the release date of {name}, which is unset."
 msgstr ""
+"A data acima difere da data de início do {name}, que está desativado."
 
 #: cms/templates/edit_subsection.html
 msgid "The date above differs from the release date of {name} - {start_time}"
-msgstr ""
+msgstr "A data acima difere da data de início do {name} - {start_time}"
 
 #: cms/templates/edit_subsection.html
 msgid "Sync to {name}."
@@ -12271,7 +12272,7 @@ msgstr "Nova Seção"
 
 #: cms/templates/overview.html
 msgid "This section is not scheduled for release"
-msgstr "Esta seção não está agendada para lançamento"
+msgstr "Esta seção não está agendada para início"
 
 #: cms/templates/overview.html
 msgid "Schedule"
@@ -12279,11 +12280,11 @@ msgstr "Horário"
 
 #: cms/templates/overview.html
 msgid "Release date:"
-msgstr "Data de lançamento:"
+msgstr "Data de início:"
 
 #: cms/templates/overview.html
 msgid "Edit section release date"
-msgstr "Editar data de lançamento da seção"
+msgstr "Editar data de início da seção"
 
 #: cms/templates/overview.html
 msgid "Delete section"
@@ -12321,7 +12322,7 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Section Release Date"
-msgstr "Data de Lançamento da Seção"
+msgstr "Data de Início da Seção"
 
 #: cms/templates/overview.html
 msgid ""
@@ -12561,6 +12562,7 @@ msgstr "resumo da página do seu curso"
 msgid ""
 "Introductions, prerequisites, FAQs that are used on %s (formatted in HTML)"
 msgstr ""
+"Introduções, pré-requisitos, FAQs que são usados ​​em %s (formatado em HTML)"
 
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
@@ -12585,7 +12587,7 @@ msgid ""
 "Please provide a valid path and name to your course image (Note: only JPEG "
 "or PNG format supported)"
 msgstr ""
-"Por favor, forneça um caminho válido e nome para sua imagem do curso (Nota: apenas os formatos JPEG "
+"Por favor, forneça um caminho válido e nome para sua imagem do curso (Obs: apenas os formatos JPEG "
 "ou PNG são suportados)"
 
 #: cms/templates/settings.html
