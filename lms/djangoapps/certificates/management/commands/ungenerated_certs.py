@@ -1,3 +1,4 @@
+import logging
 from django.core.management.base import BaseCommand, CommandError
 from certificates.models import certificate_status_for_student
 from certificates.queue import XQueueCertInterface
@@ -12,6 +13,8 @@ from xmodule.modulestore.django import modulestore
 from certificates.models import CertificateStatuses
 import datetime
 from pytz import UTC
+
+log = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
@@ -68,13 +71,14 @@ class Command(BaseCommand):
 
         STATUS_INTERVAL = 500
 
-        if options['course']:
+        course_id = options['course']
+        if course_id:
             # try to parse out the course from the serialized form
             try:
-                course = CourseKey.from_string(options['course'])
+                course = CourseKey.from_string(course_id)
             except InvalidKeyError:
                 log.warning("Course id %s could not be parsed as a CourseKey; falling back to SSCK.from_dep_str", course_id)
-                course = SlashSeparatedCourseKey.from_deprecated_string(options['course'])
+                course = SlashSeparatedCourseKey.from_deprecated_string(course_id)
             ended_courses = [course]
         else:
             raise CommandError("You must specify a course")
@@ -83,9 +87,12 @@ class Command(BaseCommand):
             # prefetch all chapters/sequentials by saying depth=2
             course = modulestore().get_course(course_key, depth=2)
 
+            org, course_str, run = course_id.split('/')
+            slashseparatedcoursekey = SlashSeparatedCourseKey(org, course_str, run)
+
             print "Fetching enrolled students for {0}".format(course_key.to_deprecated_string())
             enrolled_students = User.objects.filter(
-                courseenrollment__course_id=course_key)
+                courseenrollment__course_id=slashseparatedcoursekey)
 
             xq = XQueueCertInterface()
             if options['insecure']:
@@ -93,6 +100,8 @@ class Command(BaseCommand):
             total = enrolled_students.count()
             count = 0
             start = datetime.datetime.now(UTC)
+
+            print "Found {0} enrolled students for {1}".format(total, course_key.to_deprecated_string())
 
             for student in enrolled_students:
                 count += 1

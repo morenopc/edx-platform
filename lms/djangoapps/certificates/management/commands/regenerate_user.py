@@ -68,14 +68,14 @@ class Command(BaseCommand):
                 username=user, courseenrollment__course_id=slashseparatedcoursekey)
 
         print "Fetching course data for {0}".format(course_id)
-        course = modulestore().get_course(course_id, depth=2)
+        course = modulestore().get_course(slashseparatedcoursekey, depth=2)
 
         if not options['noop']:
             # Add the certificate request to the queue
             xq = XQueueCertInterface()
             if options['insecure']:
                 xq.use_https = False
-            ret = xq.regen_cert(student, course_id, course=course, 
+            ret = xq.regen_cert(student, slashseparatedcoursekey, course=course, 
                                 forced_grade=options['grade_value'], 
                                 template_file=options['template_file'])
             print '{0} - {1}'.format(student, ret)
