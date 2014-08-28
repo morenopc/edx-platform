@@ -75,7 +75,7 @@ class Command(BaseCommand):
             xq = XQueueCertInterface()
             if options['insecure']:
                 xq.use_https = False
-            ret = xq.regen_cert(student, SlashSeparatedCourseKey, course=course, 
+            ret = xq.regen_cert(student, slashseparatedcoursekey, course=course, 
                                 forced_grade=options['grade_value'], 
                                 template_file=options['template_file'])
             print '{0} - {1}'.format(student, ret)
