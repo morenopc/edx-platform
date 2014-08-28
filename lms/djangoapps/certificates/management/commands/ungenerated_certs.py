@@ -87,9 +87,12 @@ class Command(BaseCommand):
             # prefetch all chapters/sequentials by saying depth=2
             course = modulestore().get_course(course_key, depth=2)
 
+            org, course_str, run = course_id.split('/')
+            slashseparatedcoursekey = SlashSeparatedCourseKey(org, course_str, run)
+
             print "Fetching enrolled students for {0}".format(course_key.to_deprecated_string())
             enrolled_students = User.objects.filter(
-                courseenrollment__course_id=course_key)
+                courseenrollment__course_id=slashseparatedcoursekey)
 
             xq = XQueueCertInterface()
             if options['insecure']:
@@ -97,6 +100,8 @@ class Command(BaseCommand):
             total = enrolled_students.count()
             count = 0
             start = datetime.datetime.now(UTC)
+
+            print "Found {0} enrolled students for {1}".format(total, course_key.to_deprecated_string())
 
             for student in enrolled_students:
                 count += 1
