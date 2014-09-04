@@ -12898,7 +12898,7 @@ msgstr "Excluir Rascunho"
 
 #: cms/templates/unit.html
 msgid "Unit Location"
-msgstr "Localização de Unidade"
+msgstr "Localização da Unidade"
 
 #: cms/templates/unit.html
 msgid "Unit Identifier:"
