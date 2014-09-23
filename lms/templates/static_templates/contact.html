@@ -3,7 +3,59 @@
 
 <%block name="pagetitle">${_("Contact")}</%block>
 
-<section class="container about">
-<h1>${_("Contact")}</h1>
-<p>${_("This page left intentionally blank. It is not used by edx.org but is left here for possible use by installations of Open edX.")}</p>
+<!--<section class="container about">-->
+<section class="register container">
+
+<style>
+.static-page h2{
+	font-size: 1.5em !important;
+	line-height: 1.45em !important;
+	margin: 0 0 .7em 0 !important;
+	padding: 0 0 .45em 0 !important;
+	font-weight: 300 !important;
+	border-bottom: 1px solid #B1B2B4 !important;
+	color: #050505 !important;
+}
+
+.static-page h3{
+	font-size: 1.1em !important;
+	line-height: 1.45em !important;
+	margin: 1.45em 0 .7em 0 !important;
+	padding: 0 0 .45em 0 !important;
+	font-weight:bold !important;
+	border-bottom: 1px solid #B1B2B4 !important;
+	color: #050505 !important;
+	font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+	text-transform: uppercase  !important;
+}
+
+.static-page ul li{
+	font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+	font-size: 16px !important;
+	line-height: 1.5em !important;
+	font-weight: 400 !important;
+	color: #565656 !important;
+	margin-bottom:3px;
+}
+
+.static-page .subtitulo {
+	font-weight:bold !important;
+}
+.static-page p{
+	font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+	font-size: 16px !important;
+	line-height: 1.5em !important;
+	font-weight: 400 !important;
+	color: #565656 !important;
+	text-align:justify !important;
+}
+</style>
+<div class="static-page">
+<br>
+<h2>${_("Contact")}</h2>
+<p>Olá! Se você é estudante da ESO e caso tenha dúvidas ou sugestões sobre algum curso específico, por favor, poste suas perguntas ou ideias  no fórum de discussão do seu curso.</p>
+
+<p>Se você não é aluno e quer saber mais sobre a ESO, por favor, visite o nosso <a href="${marketing_link('FAQ')}">FAQ - Perguntas Frequentes</a>. Se ainda assim sua dúvida não for esclarecida, por favor, envie-nos um e-mail para <a href="mailto:sttaf@ucl.br" target="_blank">staff@ucl.br</a> e conte-nos também sua impressão sobre a nossa plataforma de ensino.
+<!--<p>${_("This page left intentionally blank. It is not used by edx.org but is left here for possible use by installations of Open edX.")}</p>--></p>
+</div>
 </section>

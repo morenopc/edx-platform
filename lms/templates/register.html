@@ -328,31 +328,27 @@
             % if has_extauth_info is UNDEFINED or ask_for_tos :
             <div class="field required checkbox" id="field-tos">
               <input type="hidden" name="terms_of_service" value="true" required aria-required="true" checked />
-              <!--
               <input id="tos-yes" type="checkbox" name="terms_of_service" value="true" required aria-required="true"/>
               <label for="tos-yes">${_('I agree to the {link_start}Terms of Service{link_end}').format(
                 link_start='<a href="{url}" class="new-vp" tabindex="-1">'.format(url=marketing_link('TOS')),
                 link_end='</a>')}</label>
-              -->
             </div>
             % endif
 
             % if settings.REGISTRATION_EXTRA_FIELDS['honor_code'] != 'hidden':
             <div class="field ${settings.REGISTRATION_EXTRA_FIELDS['honor_code']} checkbox" id="field-honorcode">
               <input id="honorcode-yes" type="hidden" name="honor_code" value="true" checked />
-              <!--
               <input id="honorcode-yes" type="checkbox" name="honor_code" value="true"/>
               <%
                ## TODO: provide a better way to override these links
                if self.stanford_theme_enabled():
                  honor_code_path = marketing_link('TOS') + "#honor"
                else:
-                 honor_code_path = marketing_link('HONOR')
+                 honor_code_path = marketing_link('TOS') + "#honorcode"
               %>
               <label for="honorcode-yes">${_('I agree to the {link_start}Honor Code{link_end}').format(
                link_start='<a href="{url}" class="new-vp" tabindex="-1">'.format(url=honor_code_path),
                link_end='</a>')}</label>
-              -->
             </div>
             % endif
           </li>

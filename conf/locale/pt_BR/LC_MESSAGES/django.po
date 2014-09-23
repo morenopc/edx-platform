@@ -11031,9 +11031,9 @@ msgid ""
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
 msgstr ""
-"Use as atualizações de cursos para notificar os alunos de datas importantes ou exames, "
-"para realçar discussões nos fóruns, para anunciar mudanças no cronograma, e responder "
-"a perguntas dos alunos. Você pode adicionar ou editar as atualizações em HTML."
+"Utilize este espaço para notificar os alunos a respeito de datas importantes como as das avaliações; "
+"para realçar discussões nos fóruns; para anunciar mudanças no cronograma e  também para tirar dúvidas. "
+"Você pode adicionar ou editar as atualizações em HTML."
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
@@ -11058,9 +11058,9 @@ msgid ""
 "view the page even if they are not registered for or logged in to your "
 "course."
 msgstr ""
-"Nota: As páginas são visíveis publicamente. Se os usuários souberem a URL "
-"de uma página, eles podem visualizar a página, mesmo se eles não estão "
-"registrados ou logados no seu curso."
+"Nota: As páginas são visíveis publicamente. Caso o usuário conheça a URL "
+"de uma página, ele poderá visualizá-la, mesmo se não estiver "
+"registrado ou logado em seu curso."
 
 #: cms/templates/edit-tabs.html
 msgid "Show this page"
