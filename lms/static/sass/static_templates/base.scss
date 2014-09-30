@@ -1,0 +1,51 @@
+$fonte-base: "Open Sans",Arial,Helvetica,sans-serif;
+$cor-cinza: #B1B2B4;
+$cor-cinza-escuro: #565656;
+$cor-escuro: #050505;
+
+.static-page h2{
+	font-size: 1.5em;
+	line-height: 1.45em;
+	margin: 0 0 .7em 0;
+	padding: 0 0 .45em 0;
+	font-weight: 300;
+	border-bottom: $cor-cinza;
+	color: $cor-escuro;
+}
+
+.static-page h3{
+	font-size: 1.1em;
+	line-height: 1.45em;
+	margin: 1.45em 0 .7em 0;
+	padding: 0 0 .45em 0;
+	font-weight:bold;
+	border-bottom: 1px solid $cor-cinza;
+	color: $cor-escuro;
+	font-family: $fonte-base;
+	text-transform: uppercase;
+}
+
+.static-page .subtitulo {
+	font-weight:bold;
+}
+
+.static-page p{
+	font-family: $fonte-base;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: $cor-cinza-escuro;
+	text-align:justify;
+}
+
+.static-page ul li{
+	font-family: $fonte-base;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: $cor-cinza-escuro;
+	margin-bottom:3px;
+}
+
+
+
