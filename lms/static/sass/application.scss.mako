@@ -54,3 +54,6 @@
 @import 'developer'; // used for any developer-created scss that needs further polish/refactoring
 @import 'shame';     // used for any bad-form/orphaned scss
 ## NOTE: needed here for cascade and dependency purposes, but not a great permanent solution
+
+// custom - static pages
+@import 'static_templates/base';
