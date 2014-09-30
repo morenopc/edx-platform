@@ -5540,7 +5540,7 @@ msgid ""
 "Required fields are noted by <strong class=\"indicator\">bold text and an "
 "asterisk (*)</strong>."
 msgstr ""
-"Os campos obrigatórios são marcados em <strong class=\"indicator\">negrito e"
+"Os campos obrigatórios estão marcados em <strong class=\"indicator\">negrito e"
 " com um asterisco (*)</strong>."
 
 #: lms/templates/register-shib.html lms/templates/signup_modal.html
@@ -5597,10 +5597,10 @@ msgid ""
 "future free courses. Not ready to take a course just yet? Registering puts "
 "you on our mailing list - we will update you as courses are added."
 msgstr ""
-"Ao inscrever-se para {platform_name} você terá acesso a todos os cursos "
+"Ao inscrever-se na plataforma {platform_name} você terá acesso a todos os cursos "
 "gratuitos atuais e futuros. Ainda não está pronto para fazer um curso? Ao "
-"completar a inscrição, você entra na nossa lista de contatos e enviaremos "
-"mensagens a você à medida que outros cursos forem adicionados. "
+"completar a inscrição, seus dados entram em nossa lista de contatos. "
+"Dessa forma, podemos lhe enviar mensagens à medida que outros cursos forem adicionados."
 
 #: lms/templates/register-sidebar.html
 msgid "Next Steps"
@@ -5626,15 +5626,15 @@ msgid ""
 "the email?  Check your spam folder and mark {platform_name} emails as 'not "
 "spam'.  At {platform_name}, we communicate mostly through email."
 msgstr ""
-"Ao juntar-se a {platform_name}, você receberá um e-mail de ativação. Você "
-"deve clicar no link de ativação para completar o processo. Não consegue "
-"encontrar o e-mail? Verifique se ela está na sua pasta de spam e marque "
-"todas as mensagens enviadas por {platform_name} como \"não é spam\". Em "
-"{platform_name}, nós nos comunicamos principalmente através de e-mails. "
+"Ao juntar-se a {platform_name}, você receberá um e-mail de ativação. "
+"Clique no link de ativação para completar o processo. Não consegue "
+"encontrar o e-mail? Verifique se ele está na sua pasta de spam e marque "
+"todas as mensagens enviadas pela {platform_name} como 'não é spam'. Na "
+"{platform_name},  nos comunicamos principalmente através de e-mails."
 
 #: lms/templates/register-sidebar.html
 msgid "Need help in registering with {platform_name}?"
-msgstr "Precisa de ajuda para registrar-se em {platform_name}?"
+msgstr "Precisa de ajuda para registrar-se na {platform_name}?"
 
 #: lms/templates/register-sidebar.html
 msgid "View our FAQs for answers to commonly asked questions."
@@ -5647,7 +5647,7 @@ msgid ""
 "discussion forums or through the FAQs."
 msgstr ""
 "Uma vez registradas, a maioria das perguntas podem ser respondidas nos "
-"fóruns de discussão específicos do curso ou nas Perguntas Frequentes. "
+"fóruns de discussão específicos do curso ou em Perguntas Frequentes."
 
 #: lms/templates/register.html
 msgid "Register for {platform_name}"
@@ -5663,7 +5663,7 @@ msgstr "Bem-vindo!"
 
 #: lms/templates/register.html
 msgid "Register below to create your {platform_name} account"
-msgstr "Faça sua inscrição abaixo para criar sua conta na {platform_name} "
+msgstr "Faça sua inscrição para criar sua conta na {platform_name} "
 
 #: lms/templates/register.html
 msgid "Register to start learning today!"
@@ -5690,7 +5690,7 @@ msgstr "Termine o registo da sua conta abaixo para começar a aprender."
 #: lms/templates/register.html
 msgid "Please complete the following fields to register for an account. "
 msgstr ""
-"Por favor, complete os campos abaixo para inscrever-se para uma conta."
+"Por favor, complete os campos abaixo para inscrever-se a uma conta."
 
 #: lms/templates/register.html lms/templates/register.html
 msgid "cannot be changed later"
@@ -5743,7 +5743,7 @@ msgstr "Ano de nascimento"
 
 #: lms/templates/register.html
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr "Compartilhe conosco suas razões para inscrever-se no {platform_name}"
+msgstr "Compartilhe conosco suas razões para inscrever-se na {platform_name}"
 
 #: lms/templates/register.html lms/templates/university_profile/edge.html
 msgid "Register"
@@ -6466,7 +6466,7 @@ msgstr "Compartilhe com seus amigos e família!"
 #. Twitter account. {url} should appear at the end of the text.
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {account}: {url}"
-msgstr "Eu apenas me registrei para {number} {title} a {account}: {url}"
+msgstr "Eu me registrei para {number} {title} em {account}: {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Take a course with {platform} online"
@@ -6474,7 +6474,7 @@ msgstr "Faça um curso on-line com {platform}"
 
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {platform} {url}"
-msgstr "Eu apenas me registrei para {number} {title} a {platform} {url}"
+msgstr "Eu me registrei para {number} {title} em {platform} {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"
