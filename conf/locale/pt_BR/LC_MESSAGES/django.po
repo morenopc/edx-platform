@@ -290,10 +290,6 @@ msgstr "Muitas tentativas de login sem sucesso. Tente novamente mais tarde."
 #, fuzzy
 msgid "Email or password is incorrect."
 msgstr "E-mail ou senha está incorreta."
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Endereço de e-mail ou senha incorreto.\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"E-mail ou senha está incorreto."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -11429,7 +11425,7 @@ msgstr "Bem-vindo ao"
 msgid ""
 "Studio helps manage your courses online, so you can focus on teaching them"
 msgstr ""
-"O Studio ajuda a gerenciar seus cursos on-line, para que você possa se ​​concentrar em ensinar"
+"O Studio lhe ajuda a gerenciar seus cursos on-line, para que você possa se ​​concentrar no ensino."
 
 #: cms/templates/howitworks.html
 msgid "Studio's Many Features"
@@ -11449,9 +11445,8 @@ msgid ""
 "<strong>Outline</strong> editor, providing a simple hierarchy and easy drag "
 "and drop to help you and your students stay organized."
 msgstr ""
-"A espinha dorsal do seu curso é a forma como ela está organizada. O edX Studio oferece um editor "
-"de <strong>Estrutura</strong>, apresentando uma hierarquia simples e fácil de arrastar e soltar para "
-"ajudar você e seus alunos continuarem organizados."
+"O edX Studio oferece um editor de <strong>Estrutura</strong> simples e fácil "
+"que vai ajudar você e os seus alunos a se organizarem."
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
@@ -11492,7 +11487,7 @@ msgstr ""
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html
 msgid "Learning is More than Just Lectures"
-msgstr "Aprender é mais do que Palestras"
+msgstr "Aprender é mais do que assistir palestras"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -11501,6 +11496,10 @@ msgid ""
 "Insert videos and author a wide variety of exercise types with just a few "
 "clicks."
 msgstr ""
+"O edX Studio permite criar o seu conteúdo com o propósito de reforçar a "
+"aprendizagem dos alunos: videoaulas breves, intercaladas com exercícios e muito "
+"mais. Além disso, é possível inserir vídeos e trabalhar com uma ampla variedade "
+"de questões com apenas alguns clicks."
 
 #: cms/templates/howitworks.html
 msgid "Create Learning Pathways"
@@ -11511,26 +11510,32 @@ msgid ""
 "Help your students understand a small interactive piece at a time with "
 "multimedia, HTML, and exercises."
 msgstr ""
+"Com um toque de interatividade ajude os alunos a criarem um momento "
+"educativo unindo multimídia, HTML e exercícios."
 
 #: cms/templates/howitworks.html
 msgid "Work Visually, Organize Quickly"
-msgstr "Trabalhar Visualmente, Organize Rapidamente"
+msgstr "Trabalhar visualmente, Organizar Rapidamente"
 
 #: cms/templates/howitworks.html
 msgid ""
 "Work visually and see exactly what your students will see. Reorganize all "
 "your content with drag and drop."
 msgstr ""
+"Trabalhe visualmente e veja exatamente o que os seus alunos irão ver. Reorganize "
+"todo o seu conteúdo usando apenas a técnica de arrastar e soltar."
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
-msgstr "A Larga Biblioteca de Tipos de Problemas"
+msgstr "A grande Biblioteca de Problemas"
 
 #: cms/templates/howitworks.html
 msgid ""
 "It's more than just multiple choice. Studio has nearly a dozen types of "
 "problems to challenge your learners."
 msgstr ""
+"O Studio oferece diversos tipos de problemas, prontos para desafiarem os "
+"seus alunos."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid ""
@@ -11540,7 +11545,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
-msgstr "Simples, Rápida e Encrementada Publicação. Com amigos."
+msgstr "Publicação Simples, Rápida e Incrementada. Com amigos."
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -11549,6 +11554,10 @@ msgid ""
 "incremental release when it makes sense. And with co-authors, you can have a"
 " whole team building a course, together."
 msgstr ""
+"O edX Studio funciona como aplicativos Web que você já conhece, é como construir "
+"um currículo. Publicação instantânea na Web sempre que você quiser e liberação "
+"parcial sempre que possível. Com a parceria de coautores, você pode ter um time "
+"inteiro para criar à vontade."
 
 #: cms/templates/howitworks.html
 msgid "Instant Changes"
@@ -11559,6 +11568,8 @@ msgid ""
 "Caught a bug? No problem. When you want, your changes to live when you hit "
 "Save."
 msgstr ""
+"Deu bug? Não se preocupe, suas alterações estarão preservadas sempre que você " 
+"clicar em Salvar."
 
 #: cms/templates/howitworks.html
 msgid "Release-On Date Publishing"
@@ -11569,6 +11580,8 @@ msgid ""
 "When you've finished a <strong>section</strong>, pick when you want it to go"
 " live and Studio takes care of the rest. Build your course incrementally."
 msgstr ""
+"Você pode definir quando terminar uma <strong>seção</strong> que o Studio cuida do resto. "
+"Construa o seu curso de forma gradual."
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
@@ -11579,6 +11592,8 @@ msgid ""
 "Co-authors have full access to all the same authoring tools. Make your "
 "course better through a team effort."
 msgstr ""
+"Os coautores têm acesso total às mesmas ferramentas de criação que os autores. "
+"Construa seu melhor caminho através de um esforço de equipe."
 
 #: cms/templates/howitworks.html
 msgid "Sign Up for Studio Today!"
