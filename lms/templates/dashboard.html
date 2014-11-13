@@ -181,6 +181,11 @@
   </script>
 </%block>
 
+<div class="top-wrap">
+        <section class="container">
+        </section>
+</div>
+
 % if reverifications["must_reverify"] or reverifications["denied"]:
   <section class="dashboard-banner">
     <%include file='dashboard/_dashboard_prompt_midcourse_reverify.html' />

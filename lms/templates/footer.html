@@ -6,87 +6,79 @@
 
 <div class="wrapper wrapper-footer">
   <footer>
-    <div class="colophon" style="width:75%;">
-      <nav class="nav-colophon">
-      <ol>
-          <li class="nav-colophon-01">
-          <a id="about" href="${marketing_link('ABOUT')}">
-              ${_("About")}
-          </a>
-          </li>
-          <!--<li class="nav-colophon-02">
-          <a id="jobs" href="${marketing_link('JOBS')}">
-              ${_("Jobs")}
-          </a>
-          </li>
-          <li class="nav-colophon-03">
-          <a id="press" href="${marketing_link('PRESS')}">
-              ${_("Press")}
-          </a>
-          </li>-->
-          <li class="nav-colophon-04">
-          <a id="faq" href="${marketing_link('FAQ')}">
-              ${_("FAQ")}
-          </a>
-          </li>
-          <li class="nav-colophon-05">
-          <a id="contact" href="${marketing_link('CONTACT')}">
-              ${_("Contact")}
-          </a>
-          </li>
-      </ol>
-      </nav>
-      <div class="colophon-about">
-        <img src="${static.url('images/footer-logo-eso.png')}" alt="${_('{platform_name} Logo').format(platform_name=platform_name())}" style="width: 224px; height: 47px;"/>
-
-        <p style="width:70%; text-align:justify;">${_(u"A ESO é uma iniciativa sem fins lucrativos, mantida por um consórcio de faculdades e universidades, cuja missão é oferecer o melhor ensino superior, com cursos em português do Brasil para os estudantes de todo o mundo. Os cursos online atendem às disciplinas da graduação, pós-graduação e extensão, e podem ser usados no ensino presencial, semi-presencial ou a distância.")}</p>
+  
+    <div class="colophon">
+    
+    <div class="one-third">
+    	<img src="${static.url('images/footer-logo-eso.png')}" alt="${_('{platform_name} Logo').format(platform_name=platform_name())}" style="width: 224px; height: 47px;"/>
+    </div>
+    <div class="colophon-about two-third last">
+    	<p style="text-align:justify;">${_(u"A ESO é uma iniciativa sem fins lucrativos, mantida por um consórcio de faculdades e universidades, cuja missão é oferecer o melhor ensino superior, com cursos em português do Brasil para os estudantes de todo o mundo. Os cursos online atendem às disciplinas da graduação, pós-graduação e extensão, e podem ser usados no ensino presencial, semi-presencial ou a distância.")}</p>
+    </div>
+    
+    <div class="one-third wrap-menu">
+    	<div class="wrap-interno">
+            <nav class="nav-colophon">
+              <ol>
+                  <li class="nav-colophon-01">
+                  <a id="about" href="${marketing_link('ABOUT')}">
+                      ${_("About")}
+                  </a>
+                  </li>
+                  <li class="nav-colophon-02">
+                  <a id="faq" href="${marketing_link('FAQ')}">
+                      ${_("FAQ")}
+                  </a>
+                  </li>
+                  <li class="nav-colophon-03">
+                  <a id="contact" href="${marketing_link('CONTACT')}">
+                      ${_("Contact")}
+                  </a>
+                  </li>
+              </ol>
+          </nav>
       </div>
     </div>
-
-    <div class="references" style="margin:0px; width:22%;">
-      <nav class="nav-social">
-        <ul>
-          <!--
-          <li class="nav-social-01">
-            <a href="http://www.meetup.com/edX-Global-Community/" rel="external" target="_blank">
-              <img src="${static.url('images/social/ico-social-meetup.png')}" alt="edX on Meetup" />
-            </a>
-          </li>
-          -->
-          <li class="nav-social-02">
-            <a href="http://www.facebook.com/ESOedX" rel="external" target="_blank">
-              <img src="${static.url('images/social/ico-social-facebook.png')}" alt="edX on Facebook" />
-            </a>
-          </li>
-          <li class="nav-social-03">
-            <a href="https://twitter.com/ESOedX" rel="external" target="_blank">
-              <img src="${static.url('images/social/ico-social-twitter.png')}" alt="edX on Twitter" />
-            </a>
-          </li>
-          <li class="nav-social-04">
-            <a href="https://plus.google.com/105996628882493711424/posts" rel="external" target="_blank">
-              <img src="${static.url('images/social/ico-social-google.png')}" alt="edX on Google+" />
-            </a>
-          </li>
-          <li class="nav-social-05">
-            <a href="http://youtube.com/user/ESOedX" rel="external" target="_blank">
-              <img src="${static.url('images/social/ico-social-youtube.png')}" alt="edX on YouTube" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <p class="copyright">${_("&copy; 2014 {platform_name}, some rights reserved.").format(platform_name=settings.PLATFORM_NAME)}</p>
-      <nav class="nav-legal">
-        <ul>
-          <li class="nav-legal-01">
-            <a href="${marketing_link('TOS')}">${_("Terms of Service and Honor Code")}</a>
-          </li>
-          <li class="nav-legal-02">
-            <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
-          </li>
-        </ul>
-      </nav>
+    
+    <div class="wrap-references two-third last">
+        <div class="references one-third">
+            <div class="wrap-interno">
+                <p class="copyright">${_("&copy; 2014 {platform_name}, some rights reserved.").format(platform_name=settings.PLATFORM_NAME)}</p>
+                  <nav class="nav-legal">
+                    <ul>
+                      <li class="nav-legal-01">
+                        <a href="${marketing_link('TOS')}">${_("Terms of Service and Honor Code")}</a>
+                      </li>
+                      <li class="nav-legal-02">
+                        <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    
+        <div class="references one-third last" style="float:right !important;">
+            <div class="wrap-interno">
+                <nav class="nav-social">
+                    <ul>
+                      <li class="facebook nav-social-01">
+                        <a href="http://www.facebook.com/ESOedX" rel="external" title="ESO no Facebook" target="_blank"></a>
+                      </li>
+                      <li class="twitter nav-social-02">
+                        <a href="https://twitter.com/ESOedX" rel="external" title="ESO no Twitter" target="_blank"></a>
+                      </li>
+                      <li class="google nav-social-03">
+                        <a href="https://plus.google.com/105996628882493711424/posts" title="ESO no Google+" rel="external" target="_blank"></a>
+                      </li>
+                      <li class="youtube nav-social-04">
+                        <a href="http://youtube.com/user/ESOedX" title="ESO no Youtube" rel="external" target="_blank"></a>
+                      </li>
+                    </ul>
+              </nav>
+            </div>
+        </div>
     </div>
+   </div>
+
   </footer>
 </div>
