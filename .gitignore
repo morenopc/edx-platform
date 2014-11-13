@@ -42,6 +42,8 @@ conf/locale/en/LC_MESSAGES/*.po
 conf/locale/en/LC_MESSAGES/*.mo
 conf/locale/fake*/LC_MESSAGES/*.po
 conf/locale/fake*/LC_MESSAGES/*.mo
+conf/locale/pt_BR/LC_MESSAGES/*.po
+conf/locale/pt_BR/LC_MESSAGES/*.mo
 conf/locale/messages.mo
 
 ### Testing artifacts
@@ -97,3 +99,5 @@ lms/lib/comment_client/python
 autodeploy.properties
 .ws_migrations_complete
 dist
+celerybeat-schedule
+
