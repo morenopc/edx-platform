@@ -96,7 +96,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .video-text td+td {
-	padding-left:5px;
+	padding-left:10px;
 }
 
 .video-text h3 {
@@ -107,7 +107,12 @@ html[xmlns] .slides {display: block;}
 .video-text p {
 	font-size:14px;
 	color:#76BFD3;
-	font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;	
+	font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+}
+
+.video-text .descricao {
+	max-height: 216px;
+	overflow: hidden;
 }
 
 
