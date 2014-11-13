@@ -27,6 +27,7 @@ $cor-escuro: #333;
 
 .static-page .subtitulo {
 	font-weight:bold;
+	text-transform: uppercase;
 }
 
 .static-page p{
@@ -48,4 +49,209 @@ $cor-escuro: #333;
 }
 
 
+.slider-wrap{
+	background:url(../../images/eso/bg_slide.jpg) no-repeat #106B98;
+	height:300px;
+	padding:10px;
+}
 
+.flexslider{
+	float:right;
+	position:relative;
+	width: 65%;
+	height:217px;
+	background:url(../../images/eso/bg_black_40.png);
+	padding: 10px !important;
+}
+
+.home>header{
+	height:320px !important;
+	border-bottom: 0px !important;
+}
+
+header.global{
+	border-bottom: 0px !important;
+	box-shadow: none !important;
+} 
+
+
+
+
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+.wrapper-footer {
+	border-top: 1px solid #96989A !important;
+	background: #F4F4F4 !important;
+}
+
+.wrapper-footer footer .colophon {
+	margin-right: 0 !important;
+	width: auto !important;
+}
+
+.wrapper-footer footer .references {
+	margin: 0 !important;
+	width: auto !important;
+	float: left !important;
+}
+
+.wrapper-footer footer .colophon .colophon-about p {
+	width: auto !important;
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+	background: none !important;
+}
+
+.wrapper-footer footer .references .copyright {
+	text-align: left !important;
+}
+
+.wrapper-footer footer .references .copyright {
+	color: #3c3c3c !important;
+}
+
+.wrapper-footer footer .colophon .nav-colophon {
+	margin: 0 !important;
+	min-height: 40px;
+	line-height: 40px;
+}
+
+.wrapper-footer footer .colophon .nav-colophon li a {
+	color: #FFF !important;
+}
+
+.wrapper-footer footer .colophon .nav-colophon li a:hover {
+	color: #3c3c3c !important;
+	border:0px !important;
+}
+
+.wrapper-footer footer .wrap-references {
+	background:#DDDDDD;
+	border-radius:4px;	
+}
+
+.wrapper-footer footer .wrap-menu {
+	background:#96989A;
+	border-radius:4px;
+}
+
+.wrapper-footer footer .wrap-interno{
+	padding:10px 20px 10px 20px;
+}
+
+.wrapper-footer footer .references .nav-social li {
+	margin: 3px;
+}
+
+
+/* Login
+----------------------------------------------------------------------------------------------------*/
+
+.view-register .wrapper-footer footer, .view-login .wrapper-footer footer {
+width: auto;
+max-width: 1180px !important;
+min-width: 760px !important;
+}
+
+header.global nav, .view-login header.global nav {
+width: auto !important;
+}
+
+
+.view-register .content-wrapper, .view-login .content-wrapper, .view-passwordreset .content-wrapper {
+background: #fff !important;
+}
+
+.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction {
+width: auto !important;
+max-width: 1180px !important;
+}
+
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+
+.wrapper-footer footer .references .nav-social a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background:url(../../images/eso/icons_social.png)0 0 no-repeat;
+	-webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+	opacity:0.5;
+}
+
+.wrapper-footer footer .references .facebook a { background-position: 0px -32px; }
+.wrapper-footer footer .references .facebook a:hover { background-position: 0px 0px; opacity:1; }
+
+.wrapper-footer footer .references .google a { background-position: -32px -32px; }
+.wrapper-footer footer .references .google a:hover{ background-position: -32px 0px; opacity:1; }
+
+.wrapper-footer footer .references .twitter a { background-position: -64px -32px; }
+.wrapper-footer footer .references .twitter a:hover{ background-position: -64px 0px; opacity:1; }
+
+.wrapper-footer footer .references .youtube a { background-position: -96px -32px; }
+.wrapper-footer footer .references .youtube a:hover{ background-position: -96px 0px; opacity:1; }
+
+
+/* ------------------------------------------------------------------------ */
+/* Fluid Columns
+/* ------------------------------------------------------------------------ */
+
+.one-half {
+	width: 48%;
+}
+.one-third {
+	width: 30.65%;
+}
+.two-third {
+	width: 65.33%;
+}
+.one-fourth {
+	width: 22%;
+}
+.three-fourth {
+	width: 74%;
+}
+.one-fifth {
+	width: 16.8%;
+}
+.two-fifth {
+	width: 37.6%;
+}
+.three-fifth {
+	width: 58.4%;
+}
+.four-fifth {
+	width: 79.2%;
+}
+.one-sixth {
+	width: 13.33%;
+}
+.five-sixth {
+	width: 82.67%;
+}
+.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .two-fifth, .three-fifth, .four-fifth, .one-sixth, .five-sixth {
+	position: relative;
+	margin-right: 4%;
+	margin-bottom: 20px;
+	float: left;
+}
+.last {
+	margin-right: 0 !important;
+	clear: right;
+}
+.clearboth {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width: 100%;
+}
+.one-third .four-fifth {
+	margin-bottom: 0;
+}

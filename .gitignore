@@ -7,6 +7,7 @@ requirements/private.txt
 lms/envs/private.py
 cms/envs/private.py
 lms/envs/dev_pt_br.py
+cms/envs/devstack.py
 
 ### Python artifacts
 *.pyc
@@ -42,6 +43,8 @@ conf/locale/en/LC_MESSAGES/*.po
 conf/locale/en/LC_MESSAGES/*.mo
 conf/locale/fake*/LC_MESSAGES/*.po
 conf/locale/fake*/LC_MESSAGES/*.mo
+conf/locale/pt_BR/LC_MESSAGES/*.po
+conf/locale/pt_BR/LC_MESSAGES/*.mo
 conf/locale/messages.mo
 
 ### Testing artifacts
@@ -97,3 +100,6 @@ lms/lib/comment_client/python
 autodeploy.properties
 .ws_migrations_complete
 dist
+celerybeat-schedule
+gnupg-keys.zip
+

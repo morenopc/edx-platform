@@ -92,6 +92,13 @@
   </script>
 </%block>
 
+
+<div class="top-wrap">
+        <section class="container">
+        </section>
+</div>
+
+
 <section class="introduction">
   <header>
     <h1 class="title">
@@ -339,15 +346,9 @@
             <div class="field ${settings.REGISTRATION_EXTRA_FIELDS['honor_code']} checkbox" id="field-honorcode">
               <input id="honorcode-yes" type="hidden" name="honor_code" value="true" checked />
               <input id="honorcode-yes" type="checkbox" name="honor_code" value="true"/>
-              <%
-               ## TODO: provide a better way to override these links
-               if self.stanford_theme_enabled():
-                 honor_code_path = marketing_link('TOS') + "#honor"
-               else:
-                 honor_code_path = marketing_link('TOS') + "#honorcode"
-              %>
+ 
               <label for="honorcode-yes">${_('I agree to the {link_start}Honor Code{link_end}').format(
-               link_start='<a href="{url}" class="new-vp" tabindex="-1">'.format(url=honor_code_path),
+               link_start='<a href="{url}" class="new-vp" tabindex="-1">'.format(url=marketing_link('HONOR')),
                link_end='</a>')}</label>
             </div>
             % endif
