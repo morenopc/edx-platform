@@ -301,3 +301,13 @@ background-color: #f5f5f5 !important;
 }
 
 
+/* Caixa Cursos texto
+----------------------------------------------------------------------------------------------------*/
+.highlighted-courses .courses .course .info .desc p, .find-courses .courses .course .info .desc p {
+	font-size:14px;
+	font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+}
+
+.course-info .details .inner-wrapper>section p {
+font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+}
