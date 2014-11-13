@@ -1,0 +1,303 @@
+/* Display usuário logado
+----------------------------------------------------------------------------------------------------*/
+
+header.global ol.user a.user-link {
+padding: 12px 20px 12px 35px !important;
+}
+
+header.global ol.user>li.primary:last-child>a {
+padding: 10px 8px 12px 8px !important;
+}
+
+header.global ol.user a.user-link .avatar {
+background-position: left center !important;
+}
+
+/* Todos Botões
+----------------------------------------------------------------------------------------------------*/
+
+input[type="submit"], input[type="button"], button, .button {
+background: #126f9a !important;
+box-shadow: none !important;
+border: 1px solid #0d72a2 !important;
+color:#FFF !important;
+border-radius: 3px !important;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+background: #1790C7 !important;
+}
+
+
+/* Login
+----------------------------------------------------------------------------------------------------*/
+
+/* Botão entrar na conta ESO */
+.login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
+box-shadow: none !important;
+}
+
+.view-register .introduction header, .view-login .introduction header {
+background-position:right !important;
+}
+
+.login aside, .register aside, .passwordreset aside, #forgot-password-modal #password-reset aside {
+width: 36% !important;
+}
+
+.login .content, .register .content, .passwordreset .content, #forgot-password-modal #password-reset .content {
+margin-right: 4% !important;
+width: 60% !important;
+}
+
+
+.view-register .wrapper-footer footer, .view-login .wrapper-footer footer {
+width: auto;
+max-width: 1180px !important;
+min-width: 760px !important;
+}
+
+header.global nav, .view-login header.global nav {
+width: auto !important;
+}
+
+
+.view-register .content-wrapper, .view-login .content-wrapper, .view-passwordreset .content-wrapper {
+background: #fff !important;
+}
+
+.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction {
+width: auto !important;
+max-width: 1180px !important;
+}
+
+/* Top
+----------------------------------------------------------------------------------------------------*/
+.top-wrap{
+	background:url(../../images/eso/bg_top.jpg) no-repeat #106B98;
+	height:90px;
+	padding:10px;
+	color:#FFF;
+	padding:20px;
+	overflow:hidden;
+}
+
+.top-wrap .container{
+	background-color:transparent !important;
+}
+
+.top-wrap h2{
+	color:#FFF;
+	margin-left: 210px;
+	font-size: 35px;
+}
+
+.top-wrap p{
+	color:#FFF;
+	margin-left: 210px;
+}
+
+h2 {
+color: #050505;
+font-weight: 300 !important;
+font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+}
+
+
+/* Cursos
+----------------------------------------------------------------------------------------------------*/
+.course-info header.course-profile {
+background: #106B98 !important;
+background-position:center !important;
+background-image: url(../../images/eso/bg_curso.jpg) !important;
+border-bottom: none !important;
+height: auto !important;
+max-height: 280px !important;
+}
+
+
+.course-info .details {
+/*padding: 20px 20px !important;
+width: 67.79661% !important;
+margin-right: 0 !important;*/
+}
+
+
+.course-info header.course-profile .intro-inner-wrapper {
+background: #fff !important;
+max-width: 1180px !important;
+border: none !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .media {
+background: #f5f5f5 !important;
+border-left: 1px solid #c8c8c8 !important;
+border-right: 1px solid #c8c8c8 !important;
+}
+
+.course-info .course-sidebar>section {
+box-shadow: none !important;
+background: #f5f5f5 !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .media .hero {
+border: none !important;
+}
+
+.find-courses, .university-profile {
+background: #fff !important;
+padding-bottom: 30px !important;
+}
+
+.highlighted-courses .courses .courses-listing .courses-listing-item:nth-child(3n+3), .find-courses .courses .courses-listing .courses-listing-item:nth-child(3n+3) {
+margin-right: 1.6% !important;
+}
+
+.highlighted-courses .courses .courses-listing .courses-listing-item:nth-child(4n+4), .find-courses .courses .courses-listing .courses-listing-item:nth-child(4n+4) {
+margin-right: 0 !important;
+}
+
+.highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item {
+width: 23.8% !important;
+margin-right: 1.6% !important;
+}
+
+.highlighted-courses .courses .course, .find-courses .courses .course {
+border: 1px solid #ccc !important;
+border-radius: 0px !important;
+box-shadow: none !important;
+}
+
+.course-info .container nav a, .course-info section.outside-app nav a {
+text-transform: uppercase !important;
+}
+
+/* Caixa texto do box cursos */
+.highlighted-courses .courses .course .info .desc, .find-courses .courses .course .info .desc {
+height: 116px !important;
+}
+
+
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
+box-shadow: 0 2px 1px 0 #0a4a67;
+background: #126f9a;
+color: #fff;
+}
+
+/* Botão Visualizar Material didatico */
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
+box-shadow: none !important;
+background: #126f9a !important;
+width: 45.89744% !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover {
+background: #1790C7 !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.add-to-cart {
+width: 51.53846% !important;
+}
+
+/* Botão Inscreva-se */
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+box-shadow: none !important;
+background: #126f9a !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register:hover {
+background: #1790C7 !important;
+}
+
+
+.course-info .container, .course-info section.outside-app {
+padding-bottom: 0px !important;
+}
+
+
+/* Botão Entrar */
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
+box-shadow: none !important;
+}
+
+
+
+/* Titulos das páginas
+----------------------------------------------------------------------------------------------------*/
+
+.static-page .title {
+font-size: 26px;
+line-height: 30px;
+text-transform: uppercase;
+color: #1790c7;
+font-weight: 300;
+text-align: left;
+padding-top: 20px;
+/*border-bottom: 1px solid #8a8c8f;
+padding-bottom:8px;*/
+}
+
+
+/* Dashboard
+----------------------------------------------------------------------------------------------------*/
+.dashboard .my-courses .course .cover {
+border-bottom: 1px solid #ddd !important;
+}
+
+.dashboard .profile-sidebar .user-info {
+padding: 0px !important;
+}
+
+.dashboard .profile-sidebar header.profile {
+border-radius: 0px !important;
+}
+
+.dashboard .my-courses .course .info>hgroup h3 a, .dashboard .my-courses .course .info>hgroup h3 span {
+font-size: 26px !important;
+line-height: 29px !important;
+}
+
+.dashboard .my-courses .course .info .enter-course {
+box-shadow: none !important;
+background: #126f9a !important;
+}
+
+.dashboard .my-courses .course .info .enter-course:hover {
+background: #1790C7 !important;
+}
+
+.dashboard .my-courses .course .info .enter-course.archived {
+background: #ddd !important;
+}
+
+.dashboard .my-courses .course .info .enter-course.archived:hover {
+background: #f5f5f5 !important;
+}
+
+
+.dashboard .my-courses a.email-settings, .dashboard .my-courses a.unenroll {
+color: #333 !important;
+border: 1px solid #cacaca;
+border-radius: 3px !important;
+padding: 12px 12px 12px 32px !important;
+display: inline-block !important;
+font-size: 11px !important;
+text-decoration: none !important;
+margin-top: 16px !important;
+text-shadow: 0 1px 0 #f8f8f8 !important;
+}
+
+.dashboard .my-courses a.email-settings {
+background: url(../../images/eso/icon_config.png) left no-repeat #ddd !important;
+}
+
+
+.dashboard .my-courses a.unenroll {
+background: url(../../images/eso/icon_cancel.png) left no-repeat #ddd !important;
+}
+
+.dashboard .my-courses a.email-settings:hover, .dashboard .my-courses a.unenroll:hover {
+background-color: #f5f5f5 !important;
+}
+
+
