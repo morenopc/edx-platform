@@ -106,6 +106,7 @@ html[xmlns] .slides {display: block;}
 
 .video-text p {
 	font-size:14px;
+	line-height: 22px;
 	color:#76BFD3;
 	font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
 }
