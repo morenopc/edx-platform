@@ -13,18 +13,24 @@ header.global ol.user a.user-link .avatar {
 background-position: left center !important;
 }
 
+header.global ol.user {
+float: right;
+margin-top: 0px !important;
+}
+
 /* Todos Botões
 ----------------------------------------------------------------------------------------------------*/
 
-input[type="submit"], input[type="button"], button, .button {
+input[type="submit"], input[type="button"]{
 background: #126f9a !important;
 box-shadow: none !important;
 border: 1px solid #0d72a2 !important;
 color:#FFF !important;
 border-radius: 3px !important;
+text-shadow: 0 1px 0 #333 !important;
 }
 
-input[type="submit"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+input[type="submit"]:hover, input[type="button"]:hover{
 background: #1790C7 !important;
 }
 
@@ -98,8 +104,9 @@ max-width: 1180px !important;
 }
 
 h2 {
+/*
 color: #050505;
-font-weight: 300 !important;
+font-weight: 300 !important;*/
 font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
 }
 
@@ -311,3 +318,33 @@ background-color: #f5f5f5 !important;
 .course-info .details .inner-wrapper>section p {
 font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
 }
+
+/* Titulo */
+.highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2 {
+font-weight: bold !important;
+}
+
+.highlighted-courses .courses .course header.course-preview hgroup h2 .course-number, .find-courses .courses .course header.course-preview hgroup h2 .course-number {
+font-weight: lighter !important;
+}
+
+.highlighted-courses .courses .course header.course-preview hgroup, .find-courses .courses .course header.course-preview hgroup {
+right: 0px !important;
+}
+
+header.global.slim h2 {
+font-weight: 600 !important;
+}
+
+nav.course-material {
+border-top: 1px solid #aaa !important;
+}
+
+
+/* Inputs
+----------------------------------------------------------------------------------------------------*/
+
+section.instructor-dashboard-content-2 input[type="button"] {
+text-shadow: 0 1px 0 #333 !important;
+}
+
