@@ -1,3 +1,41 @@
+/* Imagens
+----------------------------------------------------------------------------------------------------*/
+.slider-wrap{
+	background-repeat:no-repeat, repeat;
+	background-position:top;
+	background-image: url(../../images/eso/bg_slide.jpg); /* fallback */
+	background-image: url(../../images/eso/bg_slide.jpg), -webkit-gradient(linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158)); /* Saf4+, Chrome */
+	background-image: url(../../images/eso/bg_slide.jpg), -webkit-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* Chrome 10+, Saf5.1+ */
+	background-image: url(../../images/eso/bg_slide.jpg), -moz-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* FF3.6+ */
+	background-image: url(../../images/eso/bg_slide.jpg), -ms-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* IE10 */
+	background-image: url(../../images/eso/bg_slide.jpg), -o-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* Opera 11.10+ */
+	background-image: url(../../images/eso/bg_slide.jpg), linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* W3C */
+	height:300px;
+	padding:10px;
+}
+
+
+.flexslider{
+	float:right;
+	position:relative;
+	width: 65%;
+	height:217px;
+	background:url(../../images/eso/bg_black_40.png);
+	padding: 10px !important;
+}
+
+.wrapper-footer footer .references .nav-social a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background:url(../../images/eso/icons_social.png)0 0 no-repeat;
+	-webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+	opacity:0.5;
+}
+
 /* Display usuário logado
 ----------------------------------------------------------------------------------------------------*/
 
@@ -80,7 +118,15 @@ max-width: 1180px !important;
 /* Top
 ----------------------------------------------------------------------------------------------------*/
 .top-wrap{
-	background:url(../../images/eso/bg_top.jpg) no-repeat #106B98;
+	background-repeat:no-repeat, repeat;
+	background-position:top;
+	background-image: url(../../images/eso/bg_top.jpg); /* fallback */
+	background-image: url(../../images/eso/bg_top.jpg), -webkit-gradient(linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158)); /* Saf4+, Chrome */
+	background-image: url(../../images/eso/bg_top.jpg), -webkit-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* Chrome 10+, Saf5.1+ */
+	background-image: url(../../images/eso/bg_top.jpg), -moz-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* FF3.6+ */
+	background-image: url(../../images/eso/bg_top.jpg), -ms-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* IE10 */
+	background-image: url(../../images/eso/bg_top.jpg), -o-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* Opera 11.10+ */
+	background-image: url(../../images/eso/bg_top.jpg), linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* W3C */
 	height:90px;
 	padding:10px;
 	color:#FFF;

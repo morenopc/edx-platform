@@ -2843,7 +2843,6 @@ msgid "Course Announce Date"
 msgstr "Data do Anúncio do Curso"
 
 #: lms/djangoapps/shoppingcart/reports.py cms/templates/settings.html
-#, fuzzy
 msgid "Course Start Date"
 msgstr "Data de início do curso"
 
@@ -4322,7 +4321,7 @@ msgstr "Termos de Serviço"
 #: lms/templates/static_templates/privacy.html
 #: lms/templates/static_templates/privacy.html
 msgid "Privacy Policy"
-msgstr "Regras de Privacidade"
+msgstr "Política de Privacidade"
 
 #: cms/templates/widgets/header.html lms/templates/help_modal.html
 #: lms/templates/navigation.html lms/templates/static_templates/help.html
@@ -11425,7 +11424,7 @@ msgstr "Bem-vindo ao"
 msgid ""
 "Studio helps manage your courses online, so you can focus on teaching them"
 msgstr ""
-"O Studio lhe ajuda a gerenciar seus cursos on-line, para que você possa se ​​concentrar no ensino."
+"O Studio o ajuda a gerenciar seus cursos on-line, para que você possa se ​​concentrar no ensino."
 
 #: cms/templates/howitworks.html
 msgid "Studio's Many Features"
@@ -11481,7 +11480,7 @@ msgid ""
 "Build and release <strong>sections</strong> to your students incrementally. "
 "You don't have to have it all done at once."
 msgstr ""
-"Construir e lançar <strong>seções</strong> para seus alunos de forma incremental. "
+"Construir e lançar <strong>seções</strong> para seus alunos de forma adicional. "
 "Você não tem que ter tudo feito de uma só vez."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
@@ -11510,7 +11509,7 @@ msgid ""
 "Help your students understand a small interactive piece at a time with "
 "multimedia, HTML, and exercises."
 msgstr ""
-"Com um toque de interatividade ajude os alunos a criarem um momento "
+"Com um toque de interatividade ajude os alunos a criar um momento "
 "educativo unindo multimídia, HTML e exercícios."
 
 #: cms/templates/howitworks.html
@@ -11534,7 +11533,7 @@ msgid ""
 "It's more than just multiple choice. Studio has nearly a dozen types of "
 "problems to challenge your learners."
 msgstr ""
-"O Studio oferece diversos tipos de problemas, prontos para desafiarem os "
+"O Studio oferece diversos tipos de problemas, prontos para desafiar os "
 "seus alunos."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
@@ -13111,11 +13110,11 @@ msgstr ""
 
 #: cms/templates/widgets/sock.html
 msgid "Looking for help with Studio?"
-msgstr ""
+msgstr "Necessita de ajuda com o Studio?"
 
 #: cms/templates/widgets/sock.html cms/templates/widgets/sock.html
 msgid "edX Studio Documentation"
-msgstr ""
+msgstr "Documentação edX Studio"
 
 #: cms/templates/widgets/sock.html
 msgid ""

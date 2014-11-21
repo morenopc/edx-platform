@@ -49,21 +49,6 @@ $cor-escuro: #333;
 }
 
 
-.slider-wrap{
-	background:url(../../images/eso/bg_slide.jpg) no-repeat #106B98;
-	height:300px;
-	padding:10px;
-}
-
-.flexslider{
-	float:right;
-	position:relative;
-	width: 65%;
-	height:217px;
-	background:url(../../images/eso/bg_black_40.png);
-	padding: 10px !important;
-}
-
 .home>header{
 	height:320px !important;
 	border-bottom: 0px !important;
@@ -170,19 +155,6 @@ max-width: 1180px !important;
 
 /* Social Icons
 ----------------------------------------------------------------------------------------------------*/
-
-
-.wrapper-footer footer .references .nav-social a {
-	display: block;
-	width: 32px;
-	height: 32px;
-	background:url(../../images/eso/icons_social.png)0 0 no-repeat;
-	-webkit-transition: 0.3s ease-in;
-    -moz-transition: 0.3s ease-in;
-    -o-transition: 0.3s ease-in;
-    transition: 0.3s ease-in;
-	opacity:0.5;
-}
 
 .wrapper-footer footer .references .facebook a { background-position: 0px -32px; }
 .wrapper-footer footer .references .facebook a:hover { background-position: 0px 0px; opacity:1; }
