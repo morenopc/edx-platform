@@ -3,6 +3,7 @@
 .slider-wrap{
 	background-repeat:no-repeat, repeat;
 	background-position:top;
+	background-color: #106B98;
 	background-image: url(../../images/eso/bg_slide.jpg); /* fallback */
 	background-image: url(../../images/eso/bg_slide.jpg), -webkit-gradient(linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158)); /* Saf4+, Chrome */
 	background-image: url(../../images/eso/bg_slide.jpg), -webkit-linear-gradient(right, #106B98, #106B98, #3D5158, #3D5158); /* Chrome 10+, Saf5.1+ */
@@ -237,6 +238,7 @@ background: #126f9a;
 color: #fff;
 }
 
+
 /* Botão Visualizar Material didatico */
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
 box-shadow: none !important;
@@ -394,3 +396,8 @@ section.instructor-dashboard-content-2 input[type="button"] {
 text-shadow: 0 1px 0 #333 !important;
 }
 
+/* Bug Firefox
+----------------------------------------------------------------------------------------------------*/
+.home>header {
+margin-top: 0px !important;
+}
