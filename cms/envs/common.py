@@ -603,7 +603,10 @@ OPTIONAL_APPS = (
     'openassessment',
     'openassessment.assessment',
     'openassessment.workflow',
-    'openassessment.xblock'
+    'openassessment.xblock',
+
+    # edx-sga
+    'edx-sga'
 )
 
 
