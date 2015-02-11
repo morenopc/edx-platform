@@ -34,7 +34,7 @@ class Command(BaseCommand):
 
             if 1:
                 try:
-                    course_dir = course_id.replace('/', '...')
+                    course_dir = course_id.to_deprecated_string().replace('/', '...')
                     export_to_xml(ms, cs, course_id, root_dir, course_dir, modulestore())
                 except Exception as err:
                     print("="*30 + "> Oops, failed to export %s" % course_id)
