@@ -87,6 +87,37 @@ site_status_msg = get_site_status_msg(course_id)
           </li>
         </ol>
       % endif
+      % if request.impersonator:
+         <script type="text/javascript">var success_text = 'De volta para <b>${request.impersonator.profile.name}</b> (${request.impersonator})';</script>
+      % else:
+          <script type="text/javascript">var success_text = 'De volta para ao usuário original';</script>
+      % endif
+      <script type="text/javascript">
+        var noty_options = {
+            text: 'Você está logado como <b>${request.user.profile.name}</b> (${request.user})',
+            layout: 'topRight',
+            type: 'alert',
+            animation: {
+                open: 'animated lightSpeedIn', // Animate.css class names
+                close: 'animated lightSpeedOut', // Animate.css class names
+                easing: 'swing', // unavailable - no need
+                speed: 500 // unavailable - no need
+            },
+            closeWith: ['button'],
+            buttons: [{
+                addClass: 'btn', text: 'Sair', onClick: function($noty) {
+                    // this = button element
+                    // $noty = $noty element
+                    $noty.close();
+                    noty({text: success_text, type: 'success'});
+                    location.pathname = '/impersonate/stop/';
+               }
+           }]
+        }
+      </script>
+      % if request.impersonator:
+        <script type="text/javascript">var n = noty(noty_options);</script>
+      % endif
     % else:
     <ol class="left nav-global">
     

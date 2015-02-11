@@ -102,6 +102,11 @@ urlpatterns += (
         {'template': '404.html'}, name="404"),
 )
 
+# django impersonate
+urlpatterns += (
+    url(r'^impersonate/', include('impersonate.urls')),
+)
+
 # Semi-static views only used by edX, not by themes
 if not settings.FEATURES["USE_CUSTOM_THEME"]:
     urlpatterns += (

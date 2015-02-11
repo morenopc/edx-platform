@@ -95,7 +95,7 @@ FEATURES = {
 
     'ENABLE_MASQUERADE': True,  # allow course staff to change to student view of courseware
 
-    'ENABLE_SYSADMIN_DASHBOARD': False,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
+    'ENABLE_SYSADMIN_DASHBOARD': True,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
 
     'DISABLE_LOGIN_BUTTON': False,  # used in systems where login is automatic, eg MIT SSL
 
@@ -808,6 +808,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'course_wiki.middleware.WikiAccessMiddleware',
+
+    # django impersonate
+    'impersonate.middleware.ImpersonateMiddleware',
 )
 
 # Clickjacking protection can be enabled by setting this to 'DENY'
@@ -1146,6 +1149,10 @@ YOUTUBE = {
     },
 }
 
+############################### IMPERSONATE ###################################
+IMPERSONATE_REDIRECT_URL = '/dashboard'
+IMPERSONATE_REDIRECT_FIELD_NAME = 'next'
+
 ################################### APPS ######################################
 INSTALLED_APPS = (
     # Standard ones that are always installed...
@@ -1255,6 +1262,9 @@ INSTALLED_APPS = (
 
     # Monitoring functionality
     'monitoring',
+
+    # Fix error when deleting users from django admin interface
+    'social.apps.django_app.default',
 )
 
 ######################### MARKETING SITE ###############################
@@ -1564,9 +1574,10 @@ OPTIONAL_APPS = (
     'openassessment.assessment',
     'openassessment.workflow',
     'openassessment.xblock',
-
-    # edx-sga
-    'edx-sga'
+    # edx_sga
+    'edx_sga',
+    # django impersonate
+    'impersonate',
 )
 
 for app_name in OPTIONAL_APPS:
