@@ -107,6 +107,7 @@
 # marcelosoaressouza <marcelo@juntadados.org>, 2014
 # marianemurakami <mhmurakami@gmail.com>, 2014
 # RenataBarboza, 2014
+# Moreno Cunha <moreno.pinheiro@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
@@ -121,6 +122,167 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# edX-sga
+
+#: edx_sga/templates/staff_graded_assignment/show.html#23
+msgid "This assignment has not yet been graded."
+msgstr "Esta tarefa ainda não foi corrigida."
+
+#: edx_sga/templates/staff_graded_assignment/show.html#28
+msgid "Upload a different file"
+msgstr "Enviar um arquivo diferente"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#30
+msgid "Upload your assignment"
+msgstr "Enviar tarefa"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#76
+msgid "Awaiting instructor approval"
+msgstr "Aguardando resposta do professor"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#92
+msgid "Approve grade"
+msgstr "Aprovar nota"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#94
+msgid "Enter grade"
+msgstr "Avaliar"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#119
+msgid "Staff Graded Assignment"
+msgstr ""
+
+#: edx_sga/templates/staff_graded_assignment/show.html#119
+msgid "File uploaded"
+msgstr "Arquivo enviado"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#10
+msgid "No file has been uploaded."
+msgstr "Nenhum arquivo enviado."
+
+#: edx_sga/templates/staff_graded_assignment/show.html#13
+msgid "Your score is"
+msgstr "Sua nota é"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#15
+msgid "Instructor comment"
+msgstr "Comentário do professor"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#18
+msgid "Annotated file from instructor"
+msgstr "Anotações do professor"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#34
+msgid "Select a file"
+msgstr "Selecione um arquivo"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#50
+msgid "Filename"
+msgstr "Nome do arquivo"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#53
+msgid "Uploaded"
+msgstr "Enviado em"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#53
+msgid "Annotated"
+msgstr "Anotações"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#55
+msgid "Instructor's comments"
+msgstr "Comentários do professor"
+
+#: edx_sga/templates/staff_graded_assignment/show.html#102
+msgid "Upload annotated file"
+msgstr "Enviar anotações"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Problem title"
+msgstr "Título da questão"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid ""
+"This name appears in the horizontal navigation at the top of "
+"the page."
+msgstr ""
+"Este nome aparecerá na barra de navegação no topo "
+"da página."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Problem Weight"
+msgstr "Peso da questão"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid ""
+"Defines the number of points each problem is worth. "
+"If the value is not set, the problem is worth the sum of the "
+"option point values."
+msgstr ""
+"Define o número de pontos que cada questão valerá. "
+"Se o valor estiver em branco, a quetão valerá a soma dos "
+"pontos."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Maximum score"
+msgstr "Nota máxima"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Maximum grade score given to assignment by staff."
+msgstr "Nota máxima da tarefa definida pela equipe"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Score assigned by non-instructor staff."
+msgstr "Nota definida por um não-professor de equipe"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid ""
+"Score will need to be approved by instructor before being "
+"published."
+msgstr ""
+"A nota precisa ser aprovada pelo professor antes de ser"
+"pulicada."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Feedback given to student by instructor."
+msgstr "Comentário do professo para o estudante."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Annotated SHA1"
+msgstr "Anotações SHA1"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid ""
+"sha1 of the annotated file uploaded by the instructor for "
+"this assignment."
+msgstr ""
+"Anotações sha1 do arquivo enviado pelo professor para "
+"esta tarefa."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Annotated file name"
+msgstr "Nome do arquivo de anotações"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "he name of the annotated file uploaded for this assignment."
+msgstr "Nomeia o arquivo de anotações enviado para esta tarefa."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Mime type of annotated file"
+msgstr "Mime type do arquivo de anotações"
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "The mimetype of the annotated file uploaded for this assignment."
+msgstr "O mimetype do arquivo de anotações enviado para esta tarefa."
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "Timestamp"
+msgstr ""
+
+#: edx_sga/templates/staff_graded_assignment/sga.py
+msgid "When the annotated file was uploaded"
+msgstr "Quando o arquivo de anotações foi enviado"
+
 
 #. Translators: "Open Ended Panel" appears on a tab that, when clicked, opens
 #. up a panel that
