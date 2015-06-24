@@ -54,7 +54,7 @@
 			video: true,
 			controlNav: true,
 			animationLoop: true,
-			slideshow: true,
+			slideshow: false,
 			useCSS: false,
 	    	// Before you go to change slides, make sure you can!
 	    	before: function(){			    		
